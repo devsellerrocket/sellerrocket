@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+(async () => {
+  const data = {
+    ip_address: await fetch('https://api.ipify.org?format=json')
+                      .then(res => res.json())
+                      .then(d => d.ip)
+                      .catch(() => ''),
+    user_agent: navigator.userAgent,
+    platform: navigator.platform,
+    browser_language: navigator.language,
+    screen_resolution: `${screen.width}x${screen.height}`,
+    referrer: document.referrer,
+    current_url: window.location.href,
+    page_title: document.title,
+    hostname: window.location.hostname,
+    pathname: window.location.pathname,
+    query_string: window.location.search,
+    hash: window.location.hash,
+    network_type: (navigator.connection && navigator.connection.effectiveType) || '',
+    device_memory: (navigator.deviceMemory ? navigator.deviceMemory + 'GB' : ''),
+    save_data_mode: (navigator.connection && navigator.connection.saveData) ? 'true' : 'false'
+  };
+
+  fetch('store-user-info.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1559 @@
+ <!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<title>Seller rocket landing page</title>
+	<meta name="description" content="Seller rocket is best and well peforming e commerce growth partner in all over world">
+	
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.form1{
+		height: 900px;
+		width: 300px;
+		background-color: #00c5fa;
+
+	}
+
+	.section{
+		display: none;
+		height:800px; width: 100%;
+	}
+
+	.col1 {
+  position: relative;
+  border-bottom: 2px solid #0088cc;
+  margin-bottom: 4%;
+  width: 100%;
+}
+#label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #0088cc;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+#input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #0088cc;
+  text-decoration: solid;
+  
+}
+#button {
+  background: #0088cc;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+#button:hover {
+  color: #0088cc;
+  border-color: #0088cc;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.col1 #input:focus~#label,
+.col1 #input:valid~#label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+  color: #000;
+}
+#leadform{
+	display: flex;
+	flex-direction: row;
+ 	align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+	}
+	#leadform::before{
+		content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./360 .webp"), #000;
+  /* background-position: ce; */
+  background-size: cover;
+	}
+	#form{
+		width: 70%;
+		height: 90%;
+  	border-radius: 8px;
+  	padding: 30px;
+  	text-align: center;
+  	border: 1px solid rgba(255, 255, 255, 0.5);
+  	backdrop-filter: blur(9px);
+  	-webkit-backdrop-filter: blur(9px);
+	
+	}
+	@media screen and (max-width: 767px) {
+		#leadform{
+			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.section{
+			display: flex;
+		}	
+		  }@media screen and (min-width: 400px) {
+			.section{
+				height: 900px;
+			}	
+		  }
+</style>
+<style>
+	
+	a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{border:0;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+	body{line-height:1}
+	ol,ul{list-style:none}
+	blockquote,q{quotes:none}
+	blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}
+	table{border-collapse:collapse;border-spacing:0}
+	[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none;border:none;color:inherit;cursor:pointer;font-family:inherit;font-size:inherit;padding:0}.clearfix:after{clear:both;content:" ";display:block;height:0;visibility:hidden}
+	
+	body,html{overflow-x:hidden}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ffffff;font-family:Lato,sans-serif;font-size:17px;line-height:1.75em;padding:0;text-align:left}
+	body.preload *{transition:all 0s linear!important}@media (max-width:1024px){body{font-size:15px}}*{box-sizing:border-box}
+	.accent-d5 .colored-header,.accent-d5 .colored-text,.accent-d5 a,.accent-d5.colored-text{color:#326bff}
+	.accent-d5 .button,.button.accent-d5,.colored-background.accent-d5{background-color:#326bff}.dark-background .accent-d5 .button,.dark-background.accent-d5 .button{color:#326bff!important}
+	.accent-d5 .button:hover,.button.accent-d5:hover{background-color:#467aff;box-shadow:0 12px 24px -6px rgba(50,107,255,.2)}
+	.accent-d5 .button.primary-button,.accent-d5 .category-circle,.accent-d5 .icon-circle,.button.primary-button.accent-d5,.category-circle.accent-d5,
+	.icon-circle.accent-d5{background:linear-gradient(120deg,#326bff,#2059ea);background-color:#326bff}
+	.accent-d5 .button.primary-button:hover,.accent-d5 .category-circle:hover,.accent-d5 .icon-circle:hover,.button.primary-button.accent-d5:hover,
+	.category-circle.accent-d5:hover,.icon-circle.accent-d5:hover{background-color:#41a5ff}
+	.accent-d5 .tertiary-button,.tertiary-button.accent-d5{color:#326bff!important}.accent-d5 .card-title,.accent-d5 .countdown-amount,.accent-d5 
+	.gradient-text,.accent-d5 .headline-1,.accent-d5 .headline-2,.accent-d5 .headline-3,.accent-d5 .headline-4,
+	.accent-d5 .package_price .price,.accent-d5 .subhead,.accent-d5 .subhead-small,.accent-d5 .subhead-tiny,.accent-d5.dark-background .button.primary-button span,
+	.accent-d5.dark-background.button.primary-button span,.dark-background .accent-d5.button.primary-button 
+	span{-webkit-text-fill-color:transparent;background:linear-gradient(120deg,#326bff,#2059ea);-webkit-background-clip:text;color:#326bff}.accent-d5 .gradient-background,
+	.accent-d5.gradient-background{background:linear-gradient(120deg,#326bff,#2059ea)}.accent-d5 .card-button:hover svg,.accent-d5 .current-item svg,.accent-d5 .icon-big,
+	.accent-d5 .icon-small,.accent-d5 svg{fill:#326bff}.accent-d5 .card-button:hover svg .transparent,.accent-d5 .current-item svg .transparent,.accent-d5 svg 
+	.transparent{fill:rgba(50,107,255,.4)}.accent-d5 .border-highlight{border-color:#326bff}.accent-gray .colored-header,.accent-gray .colored-text,.accent-gray 
+	.current-item,.accent-gray a,.accent-gray.colored-text,.accent-gray.tab-navigation a:hover,.tab-navigation .accent-gray a:hover{color:#6d7c90}.accent-gray .button,
+	.accent-gray .colored-background,.accent-gray.chip,.button.accent-gray,.tab-navigation .accent-gray .current-item:after{background-color:#6d7c90}.dark-background 
+	.accent-gray .button,.dark-background.accent-gray .button{color:#6d7c90!important}.accent-gray .button:hover,.button.accent-gray:hover{background-color:#788699;
+		box-shadow:0 12px 24px -6px rgba(109,124,144,.2)}.accent-gray .button.play-button,.button.accent-gray.play-button{background-color:#6d7390}.accent-gray 
+		.button.play-button:hover,.button.accent-gray.play-button:hover{background-color:#787e99}.accent-gray .icon-circle,.icon-circle.accent-gray
+		{box-shadow:0 8px 20px -6px rgba(109,124,144,.9)}.accent-gray .icon-circle:hover,.icon-circle.accent-gray:hover{box-shadow:0 12px 20px -6px rgba(109,124,144,.7)}
+		.accent-gray .button.primary-button,.accent-gray .category-circle,.accent-gray .icon-circle,.button.primary-button.accent-gray,.category-circle.accent-gray,
+		.icon-circle.accent-gray{background:linear-gradient(120deg,rgba(109,124,144,0),#627081);background-color:#6d7590}.accent-gray .button.primary-button:hover,
+		.accent-gray .category-circle:hover,.accent-gray .icon-circle:hover,.button.primary-button.accent-gray:hover,.category-circle.accent-gray:hover,.icon-circle.accent-gray:hover
+		{background-color:#757b97}.accent-gray .tertiary-button,.tertiary-button.accent-gray{color:#6d7c90!important}.accent-gray .card-title,.accent-gray .countdown-amount,
+		.accent-gray .gradient-text,.accent-gray .headline-1,.accent-gray .headline-2,.accent-gray .headline-3,.accent-gray .headline-4,.accent-gray .package_price .price,
+		.accent-gray .subhead,.accent-gray .subhead-small,.accent-gray .subhead-tiny,.accent-gray.dark-background .button.primary-button span,
+		.accent-gray.dark-background.button.primary-button span,.dark-background .accent-gray.button.primary-button span
+		{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#6d7590,#627081);color:#6d7c90}.accent-gray
+		 .colored-background,.accent-gray.colored-background{background-color:#6d7c90}.accent-gray .gradient-background,.accent-gray.gradient-background
+		 {background-image:-webkit-linear-gradient(120deg,#6d7590,#627081)}.accent-gray .card-button:hover svg,.accent-gray .current-item svg,
+		 .accent-gray .icon-big,.accent-gray .icon-small,.accent-gray svg{fill:#6d7c90}.accent-gray .tertiary-button svg{fill:#6d7c90!important}
+		 .accent-gray .card-button:hover svg .transparent,.accent-gray .current-item svg .transparent,.accent-gray svg .transparent{fill:rgba(109,124,144,.4)}
+		 .accent-gray .border-highlight{border-color:#6d7c90}.accent-yellow .colored-header,.accent-yellow .colored-text,.accent-yellow .current-item,.accent-yellow a,
+		 .accent-yellow.colored-text,.accent-yellow.tab-navigation a:hover,.tab-navigation .accent-yellow a:hover{color:#ffad00}.accent-yellow .button,.accent-yellow 
+		 .colored-background,.accent-yellow.chip,.button.accent-yellow,.tab-navigation .accent-yellow .current-item:after{background-color:#ffad00}.dark-background 
+		 .accent-yellow .button,.dark-background.accent-yellow .button{color:#ffad00!important}.accent-yellow .button:hover,.button.accent-yellow:hover
+		 {background-color:#ffb414;box-shadow:0 12px 24px -6px rgba(255,173,0,.2)}.accent-yellow .button.play-button,.button.accent-yellow.play-button
+		 {background-color:#ffed00}.accent-yellow .button.play-button:hover,.button.accent-yellow.play-button:hover{background-color:#ffee14}.accent-yellow 
+		 .icon-circle,.icon-circle.accent-yellow{box-shadow:0 8px 20px -6px rgba(255,173,0,.9)}.accent-yellow .icon-circle:hover,.icon-circle.accent-yellow:hover
+		 {box-shadow:0 12px 20px -6px rgba(255,173,0,.7)}.accent-yellow .button.primary-button,.accent-yellow .category-circle,.accent-yellow .icon-circle,
+		 .button.primary-button.accent-yellow,.category-circle.accent-yellow,.icon-circle.accent-yellow{background:linear-gradient(120deg,rgba(255,173,0,0),#e69c00);
+			background-color:#ffe000}.accent-yellow .button.primary-button:hover,.accent-yellow .category-circle:hover,.accent-yellow .icon-circle:hover,
+			.button.primary-button.accent-yellow:hover,.category-circle.accent-yellow:hover,.icon-circle.accent-yellow:hover{background-color:#ffee0f}.accent-yellow 
+			.tertiary-button,.tertiary-button.accent-yellow{color:#ffad00!important}.accent-yellow .card-title,.accent-yellow .countdown-amount,.accent-yellow .gradient-text,
+			.accent-yellow .headline-1,.accent-yellow .headline-2,.accent-yellow .headline-3,.accent-yellow .headline-4,.accent-yellow .package_price .price,.accent-yellow .subhead,
+			.accent-yellow .subhead-small,.accent-yellow .subhead-tiny,.accent-yellow.dark-background .button.primary-button span,.accent-yellow.dark-background.button.primary-button 
+			span,.dark-background .accent-yellow.button.primary-button span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient
+				(120deg,#ffe000,#e69c00);color:#ffad00}
+	.accent-yellow .colored-background,.accent-yellow.colored-background{background-color:#ffad00}
+	.accent-yellow .gradient-background,.accent-yellow.gradient-background{background-image:-webkit-linear-gradient(120deg,#ffe000,#e69c00)}
+	.accent-yellow .card-button:hover svg,.accent-yellow .current-item svg,.accent-yellow .icon-big,.accent-yellow .icon-small,.accent-yellow svg{fill:#ffad00}
+	.accent-yellow .tertiary-button svg{fill:#ffad00!important}.accent-yellow .card-button:hover svg .transparent,.accent-yellow .current-item svg .transparent,.accent-yellow svg 
+	.transparent{fill:rgba(255,173,0,.4)}.accent-yellow .border-highlight{border-color:#ffad00}.accent-teal .colored-header,.accent-teal .colored-text,.accent-teal .current-item,
+	.accent-teal a,.accent-teal.colored-text,.accent-teal.tab-navigation a:hover,.tab-navigation .accent-teal a:hover{color:#00b5e6}.accent-teal 
+	.button,.accent-teal .colored-background,.accent-teal.chip,.button.accent-teal,.colored-background.accent-teal,.tab-navigation .accent-teal 
+	.current-item:after{background-color:#00b5e6}.dark-background .accent-teal .button,.dark-background.accent-teal .button{color:#00b5e6!important}
+	.accent-teal .button:hover,.button.accent-teal:hover{background-color:#00c5fa;box-shadow:0 12px 24px -6px rgba(0,181,230,.2)}.accent-teal .button.play-button,
+	.button.accent-teal.play-button{background-color:#00e6dd}.accent-teal .button.play-button:hover,.button.accent-teal.play-button:hover{background-color:#00faf1}
+	.accent-teal .icon-circle,.icon-circle.accent-teal{box-shadow:0 8px 20px -6px rgba(0,181,230,.9)}.accent-teal .icon-circle:hover,.icon-circle.accent-teal:hover{box-shadow:0
+		 12px 20px -6px rgba(0,181,230,.7)}.accent-teal .button.primary-button,.accent-teal .category-circle,.accent-teal .icon-circle,.button.primary-button.accent-teal,
+		 .category-circle.accent-teal,.icon-circle.accent-teal{background:linear-gradient(120deg,rgba(0,181,230,0),#00a1cd);background-color:#00e3e6}.accent-teal
+		  .button.primary-button:hover,.accent-teal .category-circle:hover,.accent-teal .icon-circle:hover,.button.primary-button.accent-teal:hover,.category-circle.accent-teal:hover,
+		  .icon-circle.accent-teal:hover{background-color:#00f5ec}.accent-teal .tertiary-button,.tertiary-button.accent-teal{color:#00b5e6!important}.accent-teal .card-title,
+		  .accent-teal .countdown-amount,.accent-teal .gradient-text,.accent-teal .headline-1,.accent-teal .headline-2,.accent-teal .headline-3,.accent-teal .headline-4,.accent-teal
+		   .package_price .price,.accent-teal .subhead,.accent-teal .subhead-small,.accent-teal .subhead-tiny,.accent-teal.dark-background .button.primary-button span,
+		   .accent-teal.dark-background.button.primary-button span,.dark-background .accent-teal.button.primary-button span{-webkit-text-fill-color:transparent;
+		   background:linear-gradient(120deg,#00e3e6,#00a1cd);-webkit-background-clip:text;color:#00b5e6}.accent-teal .colored-background,.accent-teal.colored-background
+		   {background-color:#00b5e6}.accent-teal .gradient-background,.accent-teal.gradient-background{background-image:-webkit-linear-gradient(120deg,#0087e6,#00a1cd)}
+		   .accent-teal .card-button:hover svg,.accent-teal .current-item svg,.accent-teal .icon-big,.accent-teal .icon-small,.accent-teal .tertiary-button svg,.accent-teal svg
+		   {fill:#00b5e6}.accent-teal .tertiary-button svg{fill:#00b5e6!important}.accent-teal .card-button:hover svg .transparent,.accent-teal .current-item svg .transparent,
+		   .accent-teal svg .transparent{fill:rgba(0,181,230,.4)}.accent-teal .border-highlight{border-color:#00b5e6}.accent-light-blue .colored-header,.accent-light-blue 
+		   .colored-text,.accent-light-blue .current-item,.accent-light-blue a,.accent-light-blue.colored-text,.accent-light-blue.tab-navigation a:hover,.tab-navigation 
+		   .accent-light-blue a:hover{color:#6797ff}.accent-light-blue .button,.accent-light-blue .colored-background,.accent-light-blue.chip,.button.accent-light-blue,
+		   .colored-background.accent-light-blue,.tab-navigation .accent-light-blue .current-item:after{background-color:#6797ff}.dark-background .accent-light-blue 
+		   .button,.dark-background.accent-light-blue .button{color:#6797ff!important}.accent-light-blue .button:hover,.button.accent-light-blue:hover{background-color:#7ba5ff;
+		   box-shadow:0 12px 24px -6px rgba(103,151,255,.2)}.accent-light-blue .button.play-button,.button.accent-light-blue.play-button{background-color:#67bdff}
+		   .accent-light-blue .button.play-button:hover,.button.accent-light-blue.play-button:hover{background-color:#7bc6ff}.accent-light-blue .icon-circle,
+		   .icon-circle.accent-light-blue{box-shadow:0 8px 20px -6px rgba(103,151,255,.9)}.accent-light-blue .icon-circle:hover,.icon-circle.accent-light-blue:hover
+		   {box-shadow:0 12px 20px -6px rgba(103,151,255,.7)}.accent-light-blue .button.primary-button,.accent-light-blue .category-circle,.accent-light-blue 
+		   .icon-circle,.button.primary-button.accent-light-blue,.category-circle.accent-light-blue,.icon-circle.accent-light-blue
+		   {background:linear-gradient(120deg,rgba(103,151,255,0),#4d86ff);background-color:#67b5ff}.accent-light-blue 
+		   .button.primary-button:hover,.accent-light-blue .category-circle:hover,.accent-light-blue .icon-circle:hover,.button.primary-button.accent-light-blue:hover,
+		   .category-circle.accent-light-blue:hover,.icon-circle.accent-light-blue:hover{background-color:#76c4ff}.accent-light-blue .tertiary-button,
+		   .tertiary-button.accent-light-blue{color:#6797ff!important}.accent-light-blue .card-title,.accent-light-blue .countdown-amount,.accent-light-blue .gradient-text,
+		   .accent-light-blue .headline-1,.accent-light-blue .headline-2,.accent-light-blue .headline-3,.accent-light-blue .headline-4,.accent-light-blue .package_price .price,
+		   .accent-light-blue .subhead,.accent-light-blue .subhead-small,.accent-light-blue .subhead-tiny,.accent-light-blue.dark-background .button.primary-button span,
+		   .accent-light-blue.dark-background.button.primary-button span,.dark-background .accent-light-blue.button.primary-button span{-webkit-text-fill-color:transparent;
+		   background:linear-gradient(120deg,#67b5ff,#4d86ff);-webkit-background-clip:text;color:#6797ff}.accent-light-blue 
+		   .colored-background,.accent-light-blue.colored-background{background-color:#6797ff}.accent-light-blue .gradient-background,.accent-light-blue.gradient-background
+		   {background-image:-webkit-linear-gradient(120deg,#6779ff,#4d86ff)}.accent-light-blue .card-button:hover svg,.accent-light-blue .current-item svg,.accent-light-blue 
+		   .icon-big,.accent-light-blue .icon-small,.accent-light-blue .tertiary-button svg,.accent-light-blue svg{fill:#6797ff}.accent-light-blue .tertiary-button svg
+		   {fill:#6797ff!important}.accent-light-blue .card-button:hover svg .transparent,.accent-light-blue .current-item svg .transparent,.accent-light-blue svg .transparent
+		   {fill:rgba(103,151,255,.4)}.accent-light-blue .border-highlight{border-color:#6797ff}.accent-blue .colored-header,.accent-blue .colored-text,.accent-blue .current-item,.accent-blue a,.accent-blue.colored-text,.accent-blue.tab-navigation a:hover,.tab-navigation .accent-blue a:hover{color:#3776ff}
+		   .accent-blue .button,.accent-blue .colored-background,.accent-blue.chip,.button.accent-blue,.colored-background.accent-blue,.tab-navigation .accent-blue 
+		   .current-item:after{background-color:#3776ff}.dark-background .accent-blue .button,.dark-background.accent-blue .button{color:#3776ff!important}
+		   .accent-blue .button:hover,.button.accent-blue:hover{background-color:#4b84ff;box-shadow:0 12px 24px -6px rgba(55,118,255,.2)}.accent-blue .button.play-button,
+		   .button.accent-blue.play-button{background-color:#37a8ff}.accent-blue .button.play-button:hover,.button.accent-blue.play-button:hover{background-color:#4bb1ff}
+		   .accent-blue .icon-circle,.icon-circle.accent-blue{box-shadow:0 8px 20px -6px rgba(55,118,255,.9)}.accent-blue .icon-circle:hover,.icon-circle.accent-blue:hover
+		   {box-shadow:0 12px 20px -6px rgba(55,118,255,.7)}.accent-blue .button.primary-button,.accent-blue .category-circle,.accent-blue .icon-circle,.button.primary-button.accent-blue,
+		   .category-circle.accent-blue,.icon-circle.accent-blue{background:linear-gradient(120deg,rgba(55,118,255,0),#1e65ff);background-color:#379eff}.accent-blue 
+		   .button.primary-button:hover,.accent-blue .category-circle:hover,.accent-blue .icon-circle:hover,.button.primary-button.accent-blue:hover,.category-circle.accent-blue:hover,
+		   .icon-circle.accent-blue:hover{background-color:#46afff}.accent-blue .tertiary-button,.tertiary-button.accent-blue{color:#3776ff!important}.accent-blue .card-title,.accent-blue 
+		   .countdown-amount,.accent-blue .gradient-text,.accent-blue .headline-1,.accent-blue .headline-2,.accent-blue .headline-3,.accent-blue .headline-4,.accent-blue .package_price .price,
+		   .accent-blue .subhead,.accent-blue .subhead-small,.accent-blue .subhead-tiny,.accent-blue.dark-background .button.primary-button 
+		   span,.accent-blue.dark-background.button.primary-button span,.dark-background .accent-blue.button.primary-button span{-webkit-text-fill-color:transparent;
+		   background:linear-gradient(120deg, #5cb4ff, #62eeff);-webkit-background-clip:text;color:#3776ff}.accent-blue .colored-background,.accent-blue.colored-background
+		   {background-color:#3776ff}.accent-blue .gradient-background,.accent-blue.gradient-background{background-image:-webkit-linear-gradient(120deg,#374eff,#1e65ff)}
+		   .accent-blue .card-button:hover svg,.accent-blue .current-item svg,.accent-blue .icon-big,.accent-blue .icon-small,.accent-blue .tertiary-button svg,.accent-blue
+		    svg{fill:#3776ff}.accent-blue .tertiary-button svg{fill:#3776ff!important}.accent-blue .card-button:hover svg .transparent,.accent-blue .current-item svg .transparent,
+			.accent-blue svg .transparent{fill:rgba(55,118,255,.4)}.accent-blue .border-highlight{border-color:#3776ff}.accent-dark-blue .colored-header,.accent-dark-blue .colored-text,
+			.accent-dark-blue .current-item,.accent-dark-blue a,.accent-dark-blue.colored-text,.accent-dark-blue.tab-navigation a:hover,.tab-navigation .accent-dark-blue a:hover{color:#262eeb}
+			.accent-dark-blue .button,.accent-dark-blue .colored-background,.accent-dark-blue.chip,.button.accent-dark-blue,.colored-background.accent-dark-blue,.tab-navigation 
+			.accent-dark-blue .current-item:after{background-color:#262eeb}.dark-background .accent-dark-blue .button,.dark-background.accent-dark-blue .button{color:#262eeb!important}
+			.accent-dark-blue .button:hover,.button.accent-dark-blue:hover{background-color:#3940ed;box-shadow:0 12px 24px -6px rgba(38,46,235,.2)}.accent-dark-blue .button.play-button,
+			.button.accent-dark-blue.play-button{background-color:#265feb}.accent-dark-blue .button.play-button:hover,.button.accent-dark-blue.play-button:hover{background-color:#396ded}
+			.accent-dark-blue .icon-circle,.icon-circle.accent-dark-blue{box-shadow:0 8px 20px -6px rgba(38,46,235,.9)}.accent-dark-blue .icon-circle:hover,.icon-circle.accent-dark-blue:hover
+			{box-shadow:0 12px 20px -6px rgba(38,46,235,.7)}.accent-dark-blue .button.primary-button,.accent-dark-blue .category-circle,.accent-dark-blue .icon-circle,
+			.button.primary-button.accent-dark-blue,.category-circle.accent-dark-blue,.icon-circle.accent-dark-blue{background:linear-gradient(120deg,rgba(38,46,235,0),#151de3);
+			background-color:#2655eb}.accent-dark-blue .button.primary-button:hover,.accent-dark-blue .category-circle:hover,.accent-dark-blue .icon-circle:hover,
+			.button.primary-button.accent-dark-blue:hover,.category-circle.accent-dark-blue:hover,.icon-circle.accent-dark-blue:hover{background-color:#346aec}.accent-dark-blue 
+			.tertiary-button,.tertiary-button.accent-dark-blue{color:#262eeb!important}.accent-dark-blue .card-title,.accent-dark-blue .countdown-amount,.accent-dark-blue .gradient-text,
+			.accent-dark-blue .headline-1,.accent-dark-blue .headline-2,.accent-dark-blue .headline-3,.accent-dark-blue .headline-4,.accent-dark-blue .package_price .price,.accent-dark-blue
+			 .subhead,.accent-dark-blue .subhead-small,.accent-dark-blue .subhead-tiny,.accent-dark-blue.dark-background .button.primary-button span,.accent-dark-blue.dark-background.button.
+			 primary-button span,.dark-background .accent-dark-blue.button.primary-button span{-webkit-text-fill-color:transparent;background:linear-gradient(120deg,#2655eb,#151de3);
+			 -webkit-background-clip:text;color:#262eeb}.accent-dark-blue .colored-background,.accent-dark-blue.colored-background{background-color:#262eeb}.accent-dark-blue
+			  .gradient-background,.accent-dark-blue.gradient-background{background-image:-webkit-linear-gradient(120deg,#4526eb,#151de3)}.accent-dark-blue .card-button:hover
+			   svg,.accent-dark-blue .current-item svg,.accent-dark-blue .icon-big,.accent-dark-blue .icon-small,.accent-dark-blue .tertiary-button svg,.accent-dark-blue svg{fill:#262eeb}
+			   .accent-dark-blue .tertiary-button svg{fill:#262eeb!important}.accent-dark-blue .card-button:hover svg .transparent,.accent-dark-blue .current-item svg .transparent,
+			   .accent-dark-blue svg .transparent{fill:rgba(38,46,235,.4)}.accent-dark-blue .border-highlight{border-color:#262eeb}.accent-indigo .colored-header,.accent-indigo 
+			   .colored-text,.accent-indigo .current-item,.accent-indigo a,.accent-indigo.colored-text,.accent-indigo.tab-navigation a:hover,.tab-navigation .accent-indigo 
+			   a:hover{color:#4a42ec}.accent-indigo .button,.accent-indigo .colored-background,.accent-indigo.chip,.button.accent-indigo,.colored-background.accent-indigo,.tab-navigation
+			    .accent-indigo .current-item:after{background-color:#4a42ec}.dark-background .accent-indigo .button,.dark-background.accent-indigo .button{color:#4a42ec!important}
+				.accent-indigo .button:hover,.button.accent-indigo:hover{background-color:#5c55ee;box-shadow:0 12px 24px -6px rgba(74,66,236,.2)}.accent-indigo .button.play-button,
+				.button.accent-indigo.play-button{background-color:#4264ec}.accent-indigo .button.play-button:hover,.button.accent-indigo.play-button:hover{background-color:#5574ee}
+				.accent-indigo .icon-circle,.icon-circle.accent-indigo{box-shadow:0 8px 20px -6px rgba(74,66,236,.9)}.accent-indigo .icon-circle:hover,.icon-circle.accent-indigo:hover
+				
+				{box-shadow:0 12px 20px -6px rgba(74,66,236,.7)}.accent-indigo .button.primary-button,.accent-indigo .category-circle,.accent-indigo .icon-circle,
+				.button.primary-button.accent-indigo,.category-circle.accent-indigo,.icon-circle.accent-indigo{background:linear-gradient(120deg,rgba(74,66,236,0),#342bea);
+				background-color:#425cec}.accent-indigo .button.primary-button:hover,.accent-indigo .category-circle:hover,.accent-indigo .icon-circle:hover,
+				.button.primary-button.accent-indigo:hover,.category-circle.accent-indigo:hover,.icon-circle.accent-indigo:hover{background-color:#5070ed}.accent-indigo 
+				.tertiary-button,.tertiary-button.accent-indigo{color:#4a42ec!important}.accent-indigo .card-title,.accent-indigo .countdown-amount,.accent-indigo .gradient-text,
+				.accent-indigo .headline-1,.accent-indigo .headline-2,.accent-indigo .headline-3,.accent-indigo .headline-4,.accent-indigo .package_price .price,.accent-indigo .subhead,
+				.accent-indigo .subhead-small,.accent-indigo .subhead-tiny,.accent-indigo.dark-background .button.primary-button span,.accent-indigo.dark-background.button.primary-button
+				 span,.dark-background .accent-indigo.button.primary-button span{-webkit-text-fill-color:transparent;background:linear-gradient(120deg,#425cec,#342bea);
+				 -webkit-background-clip:text;color:#4a42ec}.accent-indigo .colored-background,.accent-indigo.colored-background{background-color:#4a42ec}.accent-indigo
+				 
+				 .gradient-background,.accent-indigo.gradient-background{background-image:-webkit-linear-gradient(120deg,#6c42ec,#342bea)}.accent-indigo .card-button:hover 
+				 svg,.accent-indigo .current-item svg,.accent-indigo .icon-big,.accent-indigo .icon-small,.accent-indigo .tertiary-button svg,.accent-indigo svg{fill:#4a42ec}
+				 .accent-indigo .tertiary-button svg{fill:#4a42ec!important}.accent-indigo .card-button:hover svg .transparent,.accent-indigo .current-item svg .transparent,
+				 .accent-indigo svg .transparent{fill:rgba(74,66,236,.4)}.accent-indigo .border-highlight{border-color:#4a42ec}.accent-pink .colored-header,.accent-pink 
+				 .colored-text,.accent-pink .current-item,.accent-pink a,.accent-pink.colored-text,.accent-pink.tab-navigation a:hover,.tab-navigation .accent-pink a:hover
+				 {color:#ff4a9e}.accent-pink .button,.accent-pink .colored-background,.accent-pink.chip,.button.accent-pink,.colored-background.accent-pink,.tab-navigation 
+				 .accent-pink .current-item:after{background-color:#0088cc}.dark-background .accent-pink .button,.dark-background.accent-pink .button{color:#ff4a9e!important}
+				 .accent-pink .button:hover,.button.accent-pink:hover{background-color:#ff5ea9;box-shadow:0 12px 24px -6px rgba(255,74,158,.2)}.accent-pink .button.play-button,
+				 .button.accent-pink.play-button{background-color:#ff4acb}.accent-pink .button.play-button:hover,.button.accent-pink.play-button:hover{background-color:#ff5ed1}
+				 .accent-pink .icon-circle,.icon-circle.accent-pink{box-shadow:0 8px 20px -6px rgba(255,74,158,.9)}.accent-pink .icon-circle:hover,.icon-circle.accent-pink:hover
+				 {box-shadow:0 12px 20px -6px rgba(255,74,158,.7)}.accent-pink .button.primary-button,.accent-pink .category-circle,.accent-pink .icon-circle,
+				 .button.primary-button.accent-pink,.category-circle.accent-pink,.icon-circle.accent-pink{background:linear-gradient(120deg,rgba(255,74,158,0),#ff3190);
+				 background-color:#ff4ac2}.accent-pink .button.primary-button:hover,.accent-pink .category-circle:hover,.accent-pink .icon-circle:hover,.button.primary-button.accent-pink:hover,.category-circle.accent-pink:hover,.icon-circle.accent-pink:hover{background-color:#ff59d0}
+				 .accent-pink .tertiary-button,.tertiary-button.accent-pink{color:#ff4a9e!important}.accent-pink .card-title,.accent-pink .countdown-amount,.accent-pink .gradient-text,.accent-pink 
+				 .headline-1,.accent-pink .headline-2,.accent-pink .headline-3,.accent-pink .headline-4,.accent-pink .package_price .price,.accent-pink .subhead,.accent-pink .subhead-small,
+				 .accent-pink .subhead-tiny,.accent-pink.dark-background .button.primary-button span,.accent-pink.dark-background.button.primary-button span,.dark-background
+				  .accent-pink.button.primary-button span{-webkit-text-fill-color:transparent;background:linear-gradient(120deg, #49e0ff, #007789fa);
+				  -webkit-background-clip:text;color:#ff4a9e}.accent-pink .colored-background,.accent-pink.colored-background{background-color:#ff4a9e}.accent-pink
+				   .gradient-background,.accent-pink.gradient-background{background-image:-webkit-linear-gradient(120deg,#ff4a7a,#ff3190)}.accent-pink 
+				   .card-button:hover svg,.accent-pink .current-item svg,.accent-pink .icon-big,.accent-pink .icon-small,.accent-pink .tertiary-button svg,.accent-pink svg{fill:#ff4a9e}
+				   .accent-pink .tertiary-button svg{fill:#ff4a9e!important}.accent-pink .card-button:hover svg .transparent,.accent-pink .current-item svg .transparent,.accent-pink svg 
+				   .transparent{fill:rgba(255,74,158,.4)}.accent-pink .border-highlight{border-color:#ff4a9e}.accent-purple .colored-header,.accent-purple .colored-text,.accent-purple 
+				   .current-item,.accent-purple a,.accent-purple.colored-text,.accent-purple.tab-navigation a:hover,.tab-navigation .accent-purple a:hover{color:#0088cc}.accent-purple 
+				   .button,.accent-purple .colored-background,.accent-purple.chip,.button.accent-purple,.tab-navigation .accent-purple .current-item:after{background-color:#42aeec}
+				   .dark-background .accent-purple .button,.dark-background.accent-purple .button{color:#8f42ec!important}.accent-purple .button:hover,.button.accent-purple:hover
+				   {background-color:#9a55ee;box-shadow:0 12px 24px -6px rgba(143,66,236,.2)}.accent-purple .button.play-button,.button.accent-purple.play-button{background-color:#ba42ec}
+				   .accent-purple .button.play-button:hover,.button.accent-purple.play-button:hover{background-color:#c055ee}.accent-purple .icon-circle,.icon-circle.accent-purple
+				   {box-shadow:0 8px 20px -6px rgba(143,66,236,.9)}.accent-purple .icon-circle:hover,.icon-circle.accent-purple:hover{box-shadow:0 12px 20px -6px rgba(143,66,236,.7)}
+				   .accent-purple .button.primary-button,.accent-purple .category-circle,.accent-purple .icon-circle,.button.primary-button.accent-purple,.category-circle.accent-purple,
+				   .icon-circle.accent-purple{background:linear-gradient(120deg,rgba(143,66,236,0),#0ea6f2);background-color:#0088cc}.accent-purple .button.primary-button:hover,
+				   .accent-purple .category-circle:hover,.accent-purple .icon-circle:hover,.button.primary-button.accent-purple:hover,.category-circle.accent-purple:hover,
+				   .icon-circle.accent-purple:hover{background-color:#bf50ed}.accent-purple .tertiary-button,.tertiary-button.accent-purple{color:#8f42ec!important}
+				   .accent-purple .card-title,.accent-purple .countdown-amount,.accent-purple .gradient-text,.accent-purple .headline-1,.accent-purple .headline-2,.accent-purple .headline-3,
+				   .accent-purple .headline-4,.accent-purple .package_price .price,.accent-purple .subhead,.accent-purple .subhead-small,.accent-purple .subhead-tiny,.accent-purple.dark-background
+				    .button.primary-button span,.accent-purple.dark-background.button.primary-button span,.dark-background .accent-purple.button.primary-button 
+					span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#1b94f7,#8abcda);color:#0088cc}
+					.accent-purple .colored-background,.accent-purple.colored-background{background-color:#8f42ec}.accent-purple .gradient-background,.accent-purple.gradient-background
+					{background-image:-webkit-linear-gradient(120deg, #427aec, #2bc5ea)}.accent-purple .card-button:hover svg,.accent-purple .current-item svg,.accent-purple .icon-big,.accent-purple .icon-small,.accent-purple svg{fill:#68cdff}.accent-purple .tertiary-button svg{fill:#8f42ec!important}.accent-purple .card-button:hover svg .transparent,.accent-purple .current-item svg .transparent,.accent-purple svg .transparent{fill:rgba(143,66,236,.4)}.accent-purple .border-highlight{border-color:#8f42ec}.accent-green .colored-header,.accent-green .colored-text,.accent-green .current-item,.accent-green a,.accent-green.colored-text,.accent-green.tab-navigation a:hover,.tab-navigation .accent-green a:hover{color:#50c5ff}.accent-green .button,.accent-green .colored-background,.accent-green.chip,.button.accent-green,.tab-navigation .accent-green .current-item:after{background-color:#0088cc}.dark-background .accent-green .button,.dark-background.accent-green .button{color:#0088cc!important}.accent-green .button:hover,.button.accent-green:hover{background-color:#45e091;box-shadow:0 12px 24px -6px rgba(52,221,135,.2)}.accent-green .button.play-button,.button.accent-green.play-button{background-color:#34ddb1}.accent-green .button.play-button:hover,.button.accent-green.play-button:hover{background-color:#45e0b8}.accent-green .icon-circle,.icon-circle.accent-green{box-shadow:0 8px 20px -6px rgba(52,221,135,.9)}.accent-green .icon-circle:hover,.icon-circle.accent-green:hover{box-shadow:0 12px 20px -6px rgba(22, 184, 196, 0.7)}.accent-green .button.primary-button,.accent-green .category-circle,.accent-green .icon-circle,.button.primary-button.accent-green,.category-circle.accent-green,.icon-circle.accent-green{background:linear-gradient(120deg,rgba(52,221,135,0),#50c5ff);background-color:#0088cc}.accent-green .button.primary-button:hover,.accent-green .category-circle:hover,.accent-green .icon-circle:hover,.button.primary-button.accent-green:hover,.category-circle.accent-green:hover,.icon-circle.accent-green:hover{background-color:#41dfb6}.accent-green .tertiary-button,.tertiary-button.accent-green{color:#34dd87!important}.accent-green .card-title,.accent-green .countdown-amount,.accent-green .gradient-text,.accent-green .headline-1,.accent-green .headline-2,.accent-green .headline-3,.accent-green .headline-4,.accent-green .package_price .price,.accent-green .subhead,.accent-green .subhead-small,.accent-green .subhead-tiny,.accent-green.dark-background .button.primary-button span,.accent-green.dark-background.button.primary-button span,.dark-background .accent-green.button.primary-button span{-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(120deg, #0088cc, #00d5ff);
+    color: #0088cc;}.accent-green .colored-background,.accent-green.colored-background{background-color:#34dd87}.accent-green .gradient-background,.accent-green.gradient-background{background-image:-webkit-linear-gradient(120deg,#34dda9,#24d47a)}.accent-green .card-button:hover svg,.accent-green .current-item svg,.accent-green .icon-big,.accent-green .icon-small,.accent-green svg{fill:#34dd87}.accent-green .tertiary-button svg{fill:#34dd87!important}.accent-green .card-button:hover svg .transparent,.accent-green .current-item svg .transparent,.accent-green svg .transparent{fill:rgba(52,221,135,.4)}.accent-green .border-highlight{border-color:#34dd87}.accent-red .colored-header,.accent-red .colored-text,.accent-red .current-item,.accent-red a,.accent-red.colored-text,.accent-red.tab-navigation a:hover,.tab-navigation .accent-red a:hover{color:#ff4c00}.accent-red .button,.accent-red .colored-background,.accent-red.chip,.button.accent-red,.tab-navigation .accent-red .current-item:after{background-color:#ff4c00}.dark-background .accent-red .button,.dark-background.accent-red .button{color:#ff4c00!important}.accent-red .button:hover,.button.accent-red:hover{background-color:#ff5a14;box-shadow:0 12px 24px -6px rgba(255,76,0,.2)}.accent-red .button.play-button,.button.accent-red.play-button{background-color:#ff8c00}.accent-red .button.play-button:hover,.button.accent-red.play-button:hover{background-color:#ff9514}.accent-red .icon-circle,.icon-circle.accent-red{box-shadow:0 8px 20px -6px rgba(255,76,0,.9)}.accent-red .icon-circle:hover,.icon-circle.accent-red:hover{box-shadow:0 12px 20px -6px rgba(255,76,0,.7)}.accent-red .button.primary-button,.accent-red .category-circle,.accent-red .icon-circle,.button.primary-button.accent-red,.category-circle.accent-red,.icon-circle.accent-red{background:linear-gradient(120deg,rgba(255,76,0,0),#e64400);background-color:#ff7f00}.accent-red .button.primary-button:hover,.accent-red .category-circle:hover,.accent-red .icon-circle:hover,.button.primary-button.accent-red:hover,.category-circle.accent-red:hover,.icon-circle.accent-red:hover{background-color:#ff930f}.accent-red .tertiary-button,.tertiary-button.accent-red{color:#ff4c00!important}.accent-red .card-title,.accent-red .countdown-amount,.accent-red .gradient-text,.accent-red .headline-1,.accent-red .headline-2,.accent-red .headline-3,.accent-red .headline-4,.accent-red .package_price .price,.accent-red .subhead,.accent-red .subhead-small,.accent-red .subhead-tiny,.accent-red.dark-background .button.primary-button span,.accent-red.dark-background.button.primary-button span,.dark-background .accent-red.button.primary-button span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#ff7f00,#e64400);color:#ff4c00}.accent-red .colored-background,.accent-red.colored-background{background-color:#ff4c00}.accent-red .gradient-background,.accent-red.gradient-background{background-image:-webkit-linear-gradient(120deg,#ff7f00,#e64400)}.accent-red .card-button:hover svg,.accent-red .current-item svg,.accent-red .icon-big,.accent-red .icon-small,.accent-red svg{fill:#ff4c00}.accent-red .tertiary-button svg{fill:#ff4c00!important}.accent-red .card-button:hover svg .transparent,.accent-red .current-item svg .transparent,.accent-red svg .transparent{fill:rgba(255,76,0,.4)}.accent-red .border-highlight{border-color:#ff4c00}.accent-orange .colored-header,.accent-orange .colored-text,.accent-orange .current-item,.accent-orange a,.accent-orange.colored-text,.accent-orange.tab-navigation a:hover,.tab-navigation .accent-orange a:hover{color:#ff7b2b}.accent-orange .button,.accent-orange .colored-background,.accent-orange.chip,.button.accent-orange,.tab-navigation .accent-orange .current-item:after{background-color:#ff7b2b}.dark-background .accent-orange .button,.dark-background.accent-orange .button{color:#ff7b2b!important}.accent-orange .button:hover,.button.accent-orange:hover{background-color:#ff883f;box-shadow:0 12px 24px -6px rgba(255,123,43,.2)}.accent-orange .button.play-button,.button.accent-orange.play-button{background-color:#ffb02b}.accent-orange .button.play-button:hover,.button.accent-orange.play-button:hover{background-color:#ffb83f}.accent-orange .icon-circle,.icon-circle.accent-orange{box-shadow:0 8px 20px -6px rgba(255,123,43,.9)}.accent-orange .icon-circle:hover,.icon-circle.accent-orange:hover{box-shadow:0 12px 20px -6px rgba(255,123,43,.7)}.accent-orange .button.primary-button,.accent-orange .category-circle,.accent-orange .icon-circle,.button.primary-button.accent-orange,.category-circle.accent-orange,.icon-circle.accent-orange{background:linear-gradient(120deg,rgba(255,123,43,0),#ff6b12);background-color:#ffa52b}.accent-orange .button.primary-button:hover,.accent-orange .category-circle:hover,.accent-orange .icon-circle:hover,.button.primary-button.accent-orange:hover,.category-circle.accent-orange:hover,.icon-circle.accent-orange:hover{background-color:#ffb63a}.accent-orange .tertiary-button,.tertiary-button.accent-orange{color:#ff7b2b!important}.accent-orange .card-title,.accent-orange .countdown-amount,.accent-orange .gradient-text,.accent-orange .headline-1,.accent-orange .headline-2,.accent-orange .headline-3,.accent-orange .headline-4,.accent-orange .package_price .price,.accent-orange .subhead,.accent-orange .subhead-small,.accent-orange .subhead-tiny,.accent-orange.dark-background .button.primary-button span,.accent-orange.dark-background.button.primary-button span,.dark-background .accent-orange.button.primary-button span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#ffa52b,#ff6b12);color:#ff7b2b}.accent-orange .colored-background,.accent-orange.colored-background{background-color:#ff7b2b}.accent-orange .gradient-background,.accent-orange.gradient-background{background-image:-webkit-linear-gradient(120deg,#ffa52b,#ff6b12)}.accent-orange .card-button:hover svg,.accent-orange .current-item svg,.accent-orange .icon-big,.accent-orange .icon-small,.accent-orange svg{fill:#ff7b2b}.accent-orange .tertiary-button svg{fill:#ff7b2b!important}.accent-orange .card-button:hover svg .transparent,.accent-orange .current-item svg .transparent,.accent-orange svg .transparent{fill:rgba(255,123,43,.4)}.accent-orange .border-highlight{border-color:#ff7b2b}.accent-navy .colored-header,.accent-navy .colored-text,.accent-navy .current-item,.accent-navy a,.accent-navy.colored-text,.accent-navy.tab-navigation a:hover,.tab-navigation .accent-navy a:hover{color:#293038}.accent-navy .button,.accent-navy .colored-background,.accent-navy.chip,.button.accent-navy,.tab-navigation .accent-navy .current-item:after{background-color:#293038}.dark-background .accent-navy .button,.dark-background.accent-navy .button{color:#293038!important}.accent-navy .button:hover,.button.accent-navy:hover{background-color:#323a44;box-shadow:0 12px 24px -6px rgba(41,48,56,.2)}.accent-navy .button.play-button,.button.accent-navy.play-button{background-color:#292c38}
+					.accent-navy .button.play-button:hover,.button.accent-navy.play-button:hover{background-color:#323644}.accent-navy .icon-circle,.icon-circle.accent-navy{box-shadow:0 8px 20px -6px rgba(41,48,56,.9)}.accent-navy .icon-circle:hover,.icon-circle.accent-navy:hover{box-shadow:0 12px 20px -6px rgba(41,48,56,.7)}.accent-navy .button.primary-button,.accent-navy .category-circle,.accent-navy .icon-circle,.button.primary-button.accent-navy,.category-circle.accent-navy,.icon-circle.accent-navy{background:linear-gradient(120deg,rgba(41,48,56,0),#1e2329);background-color:#292d38}.accent-navy .button.primary-button:hover,.accent-navy .category-circle:hover,.accent-navy .icon-circle:hover,.button.primary-button.accent-navy:hover,.category-circle.accent-navy:hover,.icon-circle.accent-navy:hover{background-color:#2f3341}.accent-navy .tertiary-button,.tertiary-button.accent-navy{color:#293038!important}.accent-navy .card-title,.accent-navy .countdown-amount,.accent-navy .gradient-text,.accent-navy .headline-1,.accent-navy .headline-2,.accent-navy .headline-3,.accent-navy .headline-4,.accent-navy .package_price .price,.accent-navy .subhead,.accent-navy .subhead-small,.accent-navy .subhead-tiny,.accent-navy.dark-background .button.primary-button span,.accent-navy.dark-background.button.primary-button span,.dark-background .accent-navy.button.primary-button span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#292d38,#1e2329);color:#293038}.accent-navy .colored-background,.accent-navy.colored-background{background-color:#293038}.accent-navy .gradient-background,.accent-navy.gradient-background{background-image:-webkit-linear-gradient(120deg,#292d38,#1e2329)}.accent-navy .card-button:hover svg,.accent-navy .current-item svg,.accent-navy .icon-big,.accent-navy .icon-small,.accent-navy svg{fill:#293038}.accent-navy .tertiary-button svg{fill:#293038!important}.accent-navy .card-button:hover svg .transparent,.accent-navy .current-item svg .transparent,.accent-navy svg .transparent{fill:rgba(41,48,56,.4)}.accent-navy .border-highlight{border-color:#293038}.accent-dark-gray .colored-header,.accent-dark-gray .colored-text,.accent-dark-gray .current-item,.accent-dark-gray a,.accent-dark-gray.colored-text,.accent-dark-gray.tab-navigation a:hover,.tab-navigation .accent-dark-gray a:hover{color:#6d7c90}.accent-dark-gray .button,.accent-dark-gray .colored-background,.accent-dark-gray.chip,.button.accent-dark-gray,.tab-navigation .accent-dark-gray .current-item:after{background-color:#6d7c90}.dark-background .accent-dark-gray .button,.dark-background.accent-dark-gray .button{color:#6d7c90!important}.accent-dark-gray .button:hover,.button.accent-dark-gray:hover{background-color:#788699;box-shadow:0 12px 24px -6px rgba(109,124,144,.2)}.accent-dark-gray .button.play-button,.button.accent-dark-gray.play-button{background-color:#6d7390}.accent-dark-gray .button.play-button:hover,.button.accent-dark-gray.play-button:hover{background-color:#787e99}.accent-dark-gray .icon-circle,.icon-circle.accent-dark-gray{box-shadow:0 8px 20px -6px rgba(109,124,144,.9)}.accent-dark-gray .icon-circle:hover,.icon-circle.accent-dark-gray:hover{box-shadow:0 12px 20px -6px rgba(109,124,144,.7)}.accent-dark-gray .button.primary-button,.accent-dark-gray .category-circle,.accent-dark-gray .icon-circle,.button.primary-button.accent-dark-gray,.category-circle.accent-dark-gray,.icon-circle.accent-dark-gray{background:linear-gradient(120deg,rgba(109,124,144,0),#627081);background-color:#6d7590}.accent-dark-gray .button.primary-button:hover,.accent-dark-gray .category-circle:hover,.accent-dark-gray .icon-circle:hover,.button.primary-button.accent-dark-gray:hover,.category-circle.accent-dark-gray:hover,.icon-circle.accent-dark-gray:hover{background-color:#757b97}.accent-dark-gray .tertiary-button,.tertiary-button.accent-dark-gray{color:#6d7c90!important}.accent-dark-gray .card-title,.accent-dark-gray .countdown-amount,.accent-dark-gray .gradient-text,.accent-dark-gray .headline-1,.accent-dark-gray .headline-2,.accent-dark-gray .headline-3,.accent-dark-gray .headline-4,.accent-dark-gray .package_price .price,.accent-dark-gray .subhead,.accent-dark-gray .subhead-small,.accent-dark-gray .subhead-tiny,.accent-dark-gray.dark-background .button.primary-button span,.accent-dark-gray.dark-background.button.primary-button span,.dark-background .accent-dark-gray.button.primary-button span{-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-image:-webkit-linear-gradient(120deg,#6d7590,#627081);color:#6d7c90}.accent-dark-gray .colored-background,.accent-dark-gray.colored-background{background-color:#6d7c90}.accent-dark-gray .gradient-background,.accent-dark-gray.gradient-background{background-image:-webkit-linear-gradient(120deg,#6d7590,#627081)}.accent-dark-gray .card-button:hover svg,.accent-dark-gray .current-item svg,.accent-dark-gray .icon-big,.accent-dark-gray .icon-small,.accent-dark-gray svg{fill:#6d7c90}.accent-dark-gray .tertiary-button svg{fill:#6d7c90!important}.accent-dark-gray .card-button:hover svg .transparent,.accent-dark-gray .current-item svg .transparent,.accent-dark-gray svg .transparent{fill:rgba(109,124,144,.4)}.accent-dark-gray .border-highlight{border-color:#6d7c90}.accent-ai .gradient-text{-webkit-text-fill-color:transparent!important;background:linear-gradient(120deg,#5200ff,#00c9ff 60%)!important;-webkit-background-clip:text!important;color:#00c9ff!important}.accent-ai .button:not(.tertiary-button){background:linear-gradient(120deg,#00c9ff,#5200ff)!important;background-color:#00e3e6!important}h1,h2,h3,h4,h5,h6{color:#20292f;font-weight:700;line-height:1.6em;margin:.2em 0 .4em;max-width:850px;width:100%}h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child{margin-top:0}h1:last-child,h2:last-child,h3:last-child,h4:last-child,h5:last-child,h6:last-child{margin-bottom:0}.centered h1,.centered h2,.centered h3,.centered h4,.centered h5,.centered h6{margin-left:auto;margin-right:auto}h1{font-size:2.3rem;line-height:1.4em;max-width:800px}h2{font-size:1.8rem;line-height:1.25em}@media (max-width:768px){h2{font-size:1.5rem}}@media (max-width:480px){h2{font-size:1.3rem;line-height:1.4em}}.card-featured h2:not(.headline-2){font-size:2.2em}@media (max-width:670px){.card-featured h2:not(.headline-2){font-size:1.7rem}}@media (max-width:480px){.card-featured h2:not(.headline-2){font-size:1.3rem;line-height:1.4em}}h3{font-size:1.5rem;line-height:1.3em}@media (max-width:768px){h3{font-size:1.4rem}}@media (max-width:480px){h3{font-size:1.2rem}}.blurb h3,h4{font-size:1.1rem;line-height:1.4em}@media (max-width:480px){.blurb h3,h4{font-size:1rem}}h5{font-size:1rem}h6{font-size:.85rem}em{font-style:italic}p{color:#6d7c90;width:100%}p.lead{font-size:1.1em;max-width:850px}p:last-child{margin-bottom:0}p b,p strong{color:#20292f;font-weight:600}p>a{font-weight:700}.hidden{display:none!important}.body-small{font-size:.88em;line-height:1.75em}.body-small strong{color:#20292f;font-weight:600}.body-small li{line-height:1em}.body-dense{font-size:.76em;line-height:1.85em}a{cursor:pointer;text-decoration:none}.link-list a:hover,a:hover{color:#3776ff}.dark-background a:hover{color:#fff}ol,ol li,p,ul,ul li{margin-bottom:1em}ol+p,p+h1,p+h2,p+h3,p+h4,p+h5,p+p,ul+p{margin-top:1em}ul.centered a{justify-content:center}ul.link-list{color:#6d7c90}ul.link-list .link-list-header{background:#fff;border-bottom:2px solid #edf1f3;border-top:2px solid #edf1f3;color:#20292f;font-weight:600;margin:-24px -32px 20px;padding:10px}.card-medium ul.link-list .link-list-header{margin-left:-24px;margin-right:-24px}.card-small ul.link-list .link-list-header{margin-left:-16px;margin-right:-16px}ul.link-list a{color:#6d7c90}ul.link-list.with-link-icon a{display:flex;transform:translateX(14px)}ul.link-list.with-link-icon a svg{transition:all .3s cubic-bezier(.4,0,.2,1)}ul.link-list.with-link-icon a:hover svg{transform:translateX(4px)}code,pre{background:rgba(109,124,144,.1);padding:16px}i{font-style:italic}.no-wrap{white-space:nowrap}iframe{max-width:100%}iframe.e-embed-frame{max-width:540px!important;min-width:auto!important;width:100%!important}img{align-self:center;display:block;max-width:100%;opacity:1;transition:all .3s cubic-bezier(.4,0,.2,1);visibility:visible}img:not(.lazy){height:auto}img.lazy{opacity:0;visibility:hidden}img.fullwidth-image{max-width:none;width:100%}img.border-highlight{border:4px solid;border-radius:8px;padding:10px}video{background:linear-gradient(120deg,#e8ebee,#c7ccd3);max-width:100%;opacity:1;transition:all .3s cubic-bezier(.4,0,.2,1);visibility:visible}video:not(.lazy){height:auto}video.lazy{opacity:0;visibility:hidden}@media (min-width:769px){img.image-offset-right,video.image-offset-right{align-self:flex-start;max-width:160%;width:160%}img.image-offset-left,video.image-offset-left{margin-left:-60%;max-width:160%;width:160%}img.image-offset-big-right,video.image-offset-big-right{align-self:flex-start;max-width:187%;width:187%}img.image-offset-big-left,video.image-offset-big-left{margin-left:-87%;max-width:187%;width:187%}}.inline-element{display:inline}.dark-background .headline-1,.dark-background .headline-2,.dark-background .headline-3,.dark-background .headline-4,.dark-background .subhead,.dark-background .subhead-small,.dark-background .subhead-tiny,.dark-background h1,.dark-background h2,.dark-background h3,.dark-background h4,.dark-background h5,.dark-background h6,.dark-background li,.dark-background p,.dark-background p a,.dark-background ul{-webkit-text-fill-color:#fff;background:none;color:#fff}.dark-background strong{color:#fff}.dark-background p a{font-weight:800;text-decoration:underline}.headline-1.black-header,.headline-2.black-header,.headline-3.black-header,.headline-4.black-header{-webkit-text-fill-color:inherit;color:#20292f}
+					.headline-1{font-size:120px;font-weight:900;line-height:1em;margin-bottom:.2em}@media (max-width:1300px){.headline-1{font-size:10vw}}@media (max-width:1024px){.headline-1{font-size:13vw}}@media (max-width:768px){.headline-1{font-size:16vw}}.headline-2{font-size:62px;font-weight:900;line-height:1.2em;margin-bottom:.2em}@media (max-width:1300px){.headline-2{font-size:4vw}}@media (max-width:1024px){.headline-2{font-size:9vw}}@media (max-width:768px){.headline-2{margin-bottom:.4em}}.headline-3{font-size:50px;font-weight:900;line-height:1.2em}@media (max-width:1024px){.headline-3{font-size:6vw}}.headline-4{font-size:40px;font-weight:900;line-height:1.2em}@media (max-width:1024px){.headline-4{font-size:5vw}}#footer-menu h3,.card-title,.subhead,.subhead-small,.subhead-tiny,.tab-navigation a,.tab-navigation-narrow,nav a.menu-item{font-size:.85em;font-weight:700;letter-spacing:2px;line-height:1.7em;margin-bottom:.6em;text-transform:uppercase}#footer-menu h3,.subhead-small,.tab-navigation-narrow,nav a.menu-item{font-size:.8em}.subhead-tiny{font-size:.65em;font-weight:900;letter-spacing:.15em}.card-title{font-size:15px}.button{align-self:flex-start;border:none;border-radius:100px;color:#fff!important;cursor:pointer;font-family:Lato,sans-serif;font-size:12px;font-weight:900;justify-content:center;letter-spacing:1px;line-height:28px;margin-bottom:16px;padding:11px 12px;text-transform:uppercase;transition:all .3s cubic-bezier(.4,0,.2,1)}.button:active:focus,.button:focus{outline:none}.button.right-aligned-button{align-self:flex-end}.button:hover{transform:translateY(-1px)}.button.chip,.button.tertiary-button{background-color:#f2f4f5}.button.chip:hover,.button.tertiary-button:hover{background-color:#eceef1;box-shadow:none}.button.chip{color:#6d7c90!important}.button.primary-button{font-size:15px;padding:12px 32px}.button.text-button{background:none;margin-bottom:0;padding:0}.button.text-button:hover{background:none!important;transform:none!important}.button.switch-button{background:none;margin-bottom:0;padding:0}.button.switch-button:hover{transform:none!important}.button.dark-background.primary-button,.button.dark-background.primary-button:hover,.dark-background .button,.dark-background .button.primary-button,.dark-background .button.primary-button:hover,.dark-background .button:hover{background:#fff}.dark-background .button.outline-button,.dark-background .button.outline-button:hover{background:transparent;border:2px solid #fff;color:#fff!important}.button.fullwidth-button{width:100%}.button.inline-button{display:inline-block}.right-align-items.button{margin-right:0}p+.button{margin-top:1.5em}.button svg{fill:#fff!important}.dark-background .button svg{fill:#000!important}.button.play-button{padding-left:8px}.dark-background .button.play-button{background:#fff!important}.centered .button{align-self:center}.button-callout{opacity:0;position:absolute;visibility:hidden}.with-callout{position:relative}.tab-navigation{margin:0}.tab-navigation li{display:flex;margin:0!important;position:relative;text-align:center}.tab-navigation li a{color:#6d7c90;margin:0!important;padding:16px 20px;position:relative}.tab-navigation-narrow.tab-navigation li a{letter-spacing:1px;padding-left:16px;padding-right:16px}.tab-navigation li a.callout{background:#34dd87;border-radius:8px;bottom:-46px;color:#fff;display:block;font-size:12px;left:50%;opacity:0;padding:8px 16px;position:absolute;transform:translateX(-50%);transition:all .3s ease-in-out;visibility:hidden;width:210px;z-index:9}.tab-navigation li a.callout:hover{color:#fff;transform:translateX(-50%) scale(1.1)}.tab-navigation li a.callout:before{background:transparent;border-bottom:10px solid #34dd87;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;height:0;left:50%;position:absolute;top:-10px;transform:translateX(-50%);width:0}.tab-navigation li a.callout:after{display:none}.tab-navigation li a.current-item:after{border-radius:10px;transition:all .3s cubic-bezier(.4,0,.2,1)}.tab-navigation li a:after,.tab-navigation li a:before{bottom:0;content:"";height:4px;left:0;position:absolute;width:100%}.tab-navigation li a:before{background:#e1e4e8;margin-left:0;margin-right:0}.tab-navigation:hover li a.callout{bottom:-36px;opacity:1;visibility:visible}.icon-tabs li a{align-items:center;display:flex}.icon-tabs li a svg{margin-right:10px}.card,.rounded-corners{border-radius:8px}.card{display:none;background-color:#fff;box-shadow:0 8px 60px 0 rgba(103,151,255,.11),0 12px 90px 0 rgba(103,151,255,.11);margin-top:24px;padding:32px;transition:all .3s cubic-bezier(.4,0,.2,1)}.card:first-of-type{margin-top:0}.card>:last-child:not(.row-container,.row,.column){margin-bottom:0}.card.transparent-card{background:transparent}.card.card-medium{padding:24px}.card.card-small{padding:16px}.card.card-full-bleed,img.card{padding:0}.card .card-full-bleed-inset-container,.card .card-inset-container{align-self:stretch;margin:32px -32px}.card .card-full-bleed-inset-container:first-child,.card .card-inset-container:first-child{margin-top:-32px}.card .card-full-bleed-inset-container:last-child,.card .card-inset-container:last-child{margin-bottom:-32px!important}.card .card-full-bleed-inset-container>:last-child,.card .card-inset-container>:last-child{margin-bottom:0}.card-medium.card .card-full-bleed-inset-container,.card-medium.card .card-inset-container{margin:16px -24px}.card-medium.card .card-full-bleed-inset-container:first-child,.card-medium.card .card-inset-container:first-child{margin-top:-24px}.card-medium.card .card-full-bleed-inset-container:last-child,.card-medium.card .card-inset-container:last-child{margin-bottom:-24px!important}.card-small.card .card-full-bleed-inset-container,.card-small.card .card-inset-container{margin:24px -16px}.card-small.card .card-full-bleed-inset-container:first-child,.card-small.card .card-inset-container:first-child{margin-top:-24px}.card-small.card .card-full-bleed-inset-container:last-child,.card-small.card .card-inset-container:last-child{margin-bottom:-24px!important}.card .card-inset-container{background:rgba(109,124,144,.04);padding:24px 32px}.card-medium.card .card-inset-container{padding:16px 24px}.card-small.card .card-inset-container{padding:16px}.border-card{border:2px solid rgba(109,124,144,.12);box-shadow:none}.elipses{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.card-button{background-color:#fff;color:#20292f!important;font-size:11px;font-weight:900;letter-spacing:1px;line-height:1.4em;padding:16px;text-transform:uppercase}.card-button svg{fill:rgba(109,124,144,.5);transition:all .3s cubic-bezier(.4,0,.2,1)}.card-button svg .transparent{fill:rgba(109,124,144,.25);transition:all .3s cubic-bezier(.4,0,.2,1)}.card-button.current-item,.card-button:hover{background-color:#fff;box-shadow:0 10px 70px 0 rgba(103,151,255,.22),0 15px 105px 0 rgba(103,151,255,.22);margin-left:-6px;margin-right:-6px}.badge{border-radius:4px;display:inline-block;font-size:14px;font-weight:800;padding:0 8px;position:relative}.badge,.light-background .badge{background:#000;color:#fff}.badge.icon-badge{align-items:center;display:flex;gap:4px}.badge.icon-badge svg{fill:#fff}.divi-pro-badge{cursor:pointer;display:flex;position:relative}.divi-pro-badge .badge{background:linear-gradient(115deg,#379eff,#40f);margin-bottom:10px;transition:all .3s cubic-bezier(.4,0,.2,1)}.divi-pro-badge .badge:hover{padding-left:10px;padding-right:10px}.divi-pro-badge .tooltip_hover{font-size:17px}#lifetime-switcher .tooltip_hover,.button-toggle .tooltip_hover,.divi-pro-badge .tooltip_hover,.payment-duration .tooltip_hover{bottom:60px;left:50%!important;text-align:center!important;transform:scale(.95) translateX(-52.5%)!important;transform-origin:top center!important;width:480px}#lifetime-switcher .tooltip_hover:after,.button-toggle .tooltip_hover:after,.divi-pro-badge .tooltip_hover:after,.payment-duration .tooltip_hover:after{bottom:-6px;left:50%!important;margin-left:-12px;right:auto!important;top:auto}.bottom-border{border-bottom:1px solid rgba(109,124,144,.12);padding-bottom:16px}.button,.card-button{align-items:center;display:flex;text-decoration:none}.button svg,.card-button svg{height:28px;margin:0 12px 0 0;width:28px}.row.product-feature{margin-bottom:13%;margin-top:13%}.row.product-feature:first-child{margin-top:4%}.row.product-feature:last-child{margin-bottom:4%}.icon-container{border-radius:100px;box-shadow:0 4px 24px 0 rgba(103,151,255,.1),0 12px 64px 0 rgba(103,151,255,.1);padding:24px}.icon-container img{margin:0!important}.icon-big,.icon-container,.icon-small{display:flex;flex-shrink:0}.icon-big svg,.icon-container svg,.icon-small svg{display:flex}.icon-small svg,svg.icon-small{height:28px;width:28px}.icon-big svg,svg.icon-big{height:64px;width:64px}svg.ui-icon{fill:#6d7c90}.dark-background .icon-big{fill:#fff}.dark-background .icon-big .transparent{fill:hsla(0,0%,100%,.5)}section{display:flex;flex-direction:column;margin-bottom:48px;margin-top:48px;position:relative}#main-nav+section{margin-top:0;padding-top:100px}section.padded-section{padding:8vw 0}.row-container{margin:auto;max-width:90%;position:relative;width:1120px}.row-container.extra-wide-width{width:1800px}.row-container.wide-width{width:1440px}.row-container.medium-width{width:1200px}.row-container.narrow{width:960px}.row-container.thin{width:560px}.row-container.skinny{width:480px}.row-container.small-width{width:800px}.row-container.fullwidth{max-width:100%;width:100%}.row{display:flex;flex-wrap:wrap;margin:4% -2.5%;max-width:105%;position:relative}.row.small-gutters{margin-left:-1.5%;margin-right:-1.5%;max-width:103%}.row.tiny-gutters{margin-left:-.75%;margin-right:-.75%;max-width:101.5%}.row.wide-gutters{margin-left:-3.5%;margin-right:-3.5%;max-width:107%}.row.centered{justify-content:center}.row.card{margin-bottom:4%;margin-top:4%}.card .row,.row.card{margin-left:0;margin-right:0}.row.narrow{align-self:center;width:960px}
+					.column-container{display:flex;flex-direction:column;padding:0 2.375%}.small-gutters .column-container{padding:0 1.455%}.tiny-gutters .column-container{padding:0 .73875%}.column-container .no-gutters{padding:0}.wide-gutters .column-container{padding:0 3.255%}.bottom-align-columns .column-container{justify-content:flex-end}.column-container.column-width-auto,.column-width-auto .column-container{flex:none}.column{display:flex;flex-direction:column;min-width:100%}.column>div,.column>img,.column>object{margin-bottom:2em}.column.small-spacing>div,.column.small-spacing>img,.column.small-spacing>object,.hosting-card .column>img{margin-bottom:1em}.equal-column-heights .column{flex:1}.bottom-align-last-items.equal-column-heights .column>:last-child{margin-top:auto}.center-align-last-items.equal-column-heights .column>:last-child{margin-bottom:auto;margin-top:auto}.column:not(.inline-elements)>:last-child{margin-bottom:0}.centered,.column .centered,.column.centered{align-items:center!important;text-align:center}.inline-elements{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:wrap;width:100%}.inline-elements>*{margin-right:5%}.inline-elements>:last-child{margin-right:0!important}.inline-elements.small-gutters>*{margin-right:3%}.right-align-items.inline-elements.small-gutters>*{margin-left:3%}.inline-elements.tiny-gutters>*{margin-right:1.5%}.right-align-items.inline-elements.tiny-gutters>*{margin-left:1.5%}.inline-elements.centered{align-items:flex-start;justify-content:center}.inline-elements.centered>*{margin-left:2.5%;margin-right:2.5%}.inline-elements.centered.small-gutters>*{margin-left:1.5%;margin-right:1.5%}.inline-elements.centered.tiny-gutters>*{margin-left:.75%;margin-right:.75%}.inline-elements.right-align-items{justify-content:flex-end}.right-align-items.inline-elements.right-align-items>*{margin-right:0!important}p+.inline-elements{margin-top:1.5em}.flex{display:flex}.flex.flex-column{flex-direction:column}.overflow-hidden{overflow:hidden}.button-group{grid-column-gap:16px;display:flex;flex-direction:row;flex-wrap:wrap}.fill-space{flex:1}@media only screen and (min-width:769px){.column-container{flex:1}body.single-post .article-container .column-container{flex:auto}.center-align-columns .column-container{justify-content:center}.two-column .column-container{flex:0 0 50%!important;max-width:50%!important}.two-column .column-container:nth-of-type(-n+2){margin-top:0!important}.three-column .column-container{flex:0 0 33.33333333%!important;max-width:33.33333333%!important}.three-column .column-container:nth-of-type(-n+3){margin-top:0!important}.four-column .column-container{flex:0 0 25%!important;max-width:25%!important}.four-column .column-container:nth-of-type(-n+4){margin-top:0!important}.five-column .column-container{flex:0 0 20%!important;max-width:20%!important}.five-column .column-container:nth-of-type(-n+5){margin-top:0!important}.product-feature-reverse .row.product-feature,.product-feature-river .row.product-feature:nth-child(2n),.product-feature-river-reverse .row.product-feature:nth-child(odd){flex-direction:row-reverse}}.column-1{flex:0 0 8.33333333%!important;max-width:8.33333333%!important}.column-2{flex:0 0 16.66666667%!important;max-width:16.66666667%!important}.column-2_4{flex:0 0 20%!important;max-width:20%!important}.column-3{flex:0 0 25%!important;max-width:25%!important}.column-4{flex:0 0 33.33333333%!important;max-width:33.33333333%!important}.column-5{flex:0 0 41.66666667%!important;max-width:41.66666667%!important}.column-6{flex:0 0 50%!important;max-width:50%!important}.column-7{flex:0 0 58.33333333%!important;max-width:58.33333333%!important}.column-8{flex:0 0 66.66666667%!important;max-width:66.66666667%!important}.column-9{flex:0 0 75%!important;max-width:75%!important}.column-10{flex:0 0 83.33333333%!important;max-width:83.33333333%!important}.column-11{flex:0 0 91.66666667%!important;max-width:91.66666667%!important}.column-12{flex:0 0 100%!important;max-width:100%!important}.five-column .column-container,.four-column .column-container,.three-column .column-container,.two-column .column-container{margin-top:5%}.small-gutters.five-column .column-container,.small-gutters.four-column .column-container,.small-gutters.three-column .column-container,.small-gutters.two-column .column-container{margin-top:3%}.tiny-gutters.five-column .column-container,.tiny-gutters.four-column .column-container,.tiny-gutters.three-column .column-container,.tiny-gutters.two-column .column-container{margin-top:1.5%}@media only screen and (max-width:960px) and (min-width:671px){.column-container:not(.retain-width-on-mobile),.product-feature .column-container:not(.retain-width-on-mobile){flex:1;max-width:none}}@media only screen and (max-width:768px) and (min-width:671px){.column-1-tablet{flex:0 0 8.33333333%!important;max-width:8.33333333%!important}.column-2-tablet{flex:0 0 16.66666667%!important;max-width:16.66666667%!important}.column-2_4-tablet{flex:0 0 20%!important;max-width:20%!important}.column-3-tablet{flex:0 0 25%!important;max-width:25%!important}.column-4-tablet{flex:0 0 33.33333333%!important;max-width:33.33333333%!important}.column-5-tablet{flex:0 0 41.66666667%!important;max-width:41.66666667%!important}.column-6-tablet{flex:0 0 50%!important;max-width:50%!important}.column-7-tablet{flex:0 0 58.33333333%!important;max-width:58.33333333%!important}.column-8-tablet{flex:0 0 66.66666667%!important;max-width:66.66666667%!important}.column-9-tablet{flex:0 0 75%!important;max-width:75%!important}.column-10-tablet{flex:0 0 83.33333333%!important;max-width:83.33333333%!important}.column-11-tablet{flex:0 0 91.66666667%!important;max-width:91.66666667%!important}.column-12-tablet{flex:0 0 100%!important;max-width:100%!important}.five-column .column-container,.four-column .column-container{flex:0 0 50%!important;max-width:50%!important}.five-column .column-container:nth-of-type(-n+2),.four-column .column-container:nth-of-type(-n+2){margin-top:0}.four-column .column-container,.three-column .column-container,.two-column .column-container{flex:0 0 50%!important;max-width:50%!important}.four-column .column-container:nth-of-type(-n+2),.three-column .column-container:nth-of-type(-n+2),.two-column .column-container:nth-of-type(-n+2){margin-top:0}.three-column-tablet .column-container{flex:0 0 33.33333333%!important;max-width:33.33333333%!important}.three-column-tablet .column-container:nth-of-type(-n+3){margin-top:0}.three-column-tablet .column-container{margin-top:5%}.small-gutters.three-column-tablet .column-container{margin-top:3%}.tiny-gutters.three-column-tablet .column-container{margin-top:1.5%}.four-column-tablet .column-container{flex:0 0 25%!important;margin-top:5%;max-width:25%!important}.four-column-tablet .column-container:nth-of-type(-n+4){margin-top:0}}@media only screen and (max-width:670px){.row .column-container{flex:0 0 100%!important;margin-top:30px;max-width:100%!important;padding:0 2.5%}.row .column-container:first-child{margin-top:0}.two-column-phone .column-container{flex:0 0 50%!important;margin-top:5%;max-width:50%!important}.two-column-phone .column-container:nth-of-type(-n+2){margin-top:0}.four-column-phone .column-container{flex:0 0 25%!important;margin-top:5%;max-width:25%!important}.four-column-phone .column-container:nth-of-type(-n+4){margin-top:0}}.arrow-section-divider{fill:#fff;max-height:300px}#builder-preview{margin-bottom:14%;margin-top:20px}#builder-preview svg.svg-shape{bottom:-35%;left:13%;opacity:.5;position:absolute;transform:rotate(10deg);width:55%;z-index:-1}#builder-preview:before{background:rgba(0,181,230,.5);left:-30px;top:310px}#builder-preview:after,#builder-preview:before{border-radius:2000px;content:"";display:block;height:96px;position:absolute;width:96px;z-index:-1}#builder-preview:after{background:rgba(143,66,236,.15);right:20%;top:-20px}#builder-preview video{display:none;margin:0;opacity:0;transition:all .3s cubic-bezier(.4,0,.2,1);visibility:hidden}#builder-preview video.current-item{display:initial;opacity:1;visibility:visible}#builder-preview .column-container:first-of-type{order:2}#builder-preview .column-container:nth-of-type(2){order:1}#builder-preview .column-container:last-of-type{order:3}.feature-blurb-grid{margin-bottom:80px}.feature-blurb-grid svg.svg-shape{bottom:-20%;left:-10%;position:absolute;transform:rotate(-10deg);width:100%;z-index:-1}.feature-blurb-grid:after{background:linear-gradient(120deg,rgba(255,74,158,0) 45%,rgba(255,74,158,.4));border-radius:2000px;content:"";display:block;height:800px;position:absolute;right:-140px;top:-210px;width:800px;z-index:-1}.website-pack-preview{align-items:center;justify-content:center;position:relative}.website-pack-preview+h4{margin-top:16px;z-index:3}.website-pack-preview span{margin:0;overflow:hidden;padding:0;transform:rotate(0deg)}.website-pack-preview span:first-child{height:240px;width:220px;z-index:3}.website-pack-preview span:nth-child(2),.website-pack-preview span:nth-child(3){height:200px;opacity:.8;position:absolute;top:12px;width:180px;z-index:2}.website-pack-preview span:nth-child(2){left:25px}.website-pack-preview span:nth-child(3){right:25px}.website-pack-preview:hover span{overflow:hidden;padding:0}.website-pack-preview:hover span:first-child{width:160px}.website-pack-preview:hover span:nth-child(2),.website-pack-preview:hover span:nth-child(3){height:220px;opacity:1;width:160px}.website-pack-preview:hover span:nth-child(2){left:0;transform:rotate(-5deg)}.website-pack-preview:hover span:nth-child(3){right:0;transform:rotate(5deg)}.trustpilot-widget{min-height:30px;width:100%}.package .trustpilot-widget{margin-bottom:1em!important}.trustpilot-widget iframe~iframe{filter:drop-shadow(0 10px 10px rgba(103,151,255,.2))}.trustpilot-widget-subhead{height:20px;margin-bottom:1em!important;max-width:420px;overflow:hidden}.testimonial .review-logo{align-self:start;max-height:40px;max-width:94px}.testimonial svg{max-width:118px;width:100%}
+					.testimonial-big.testimonial svg{fill:#ffad00;margin:24px auto 40px}.testimonial-wide.testimonial svg{fill:#34dd87}.testimonial .icon-blurb{margin-bottom:1em}.testimonial .blurb img{border-radius:100%}.testimonial-big.testimonial .blurb img{margin-top:-32px}.testimonial-wide.testimonial .blurb img{width:40px}.testimonial .subhead{line-height:1.4em}.testimonial.testimonial-big{box-shadow:0 64px 104px 0 rgba(103,151,255,.09)}.testimonial.testimonial-big h4{margin-bottom:0}.testimonial.testimonial-wide{margin-bottom:2em}.video-popup{z-index:3}.video-popup .video-play-icon{border-radius:100px;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);z-index:2}.featured-video{margin-bottom:64px}.featured-video a.video-popup .image-container{position:relative}.featured-video a.video-popup .image-container:after{background-color:red;background:linear-gradient(120deg,rgba(103,151,255,.5),#8f42ec);border-radius:8px;content:"";height:100%;position:absolute;right:0;top:0;width:100%;z-index:1}.monarch-video.featured-video a.video-popup .image-container:after{background:linear-gradient(120deg,rgba(255,173,0,0),#ff7b2b)}.featured-video a.video-popup>svg{bottom:-30%;left:-15%;position:absolute;transform:rotate(10deg);width:70%;z-index:-1}.featured-video a.video-popup:before{background:rgba(255,74,158,.5);border-radius:2000px;content:"";display:block;height:160px;position:absolute;right:-50px;top:-60px;width:160px;z-index:-1}.monarch-video.featured-video a.video-popup:before{background:rgba(255,173,0,.5)}.featured-video a.video-popup:after{background:#4a42ec;border-radius:2000px;bottom:-60px;content:"";display:block;height:24px;position:absolute;right:20%;width:24px;z-index:-1}.monarch-video.featured-video a.video-popup:after{background:#ff4c00}.et-db #et-boc .et-fb-checkboxes-category-wrap p{margin-top:0}#contact-cards{margin-bottom:80px}#contact-cards:after{background:linear-gradient(45deg,#e9f4ff,rgba(233,244,255,0) 70%);height:860px;width:860px}#contact-cards:after,#login-card:after{border-radius:2000px;bottom:-80px;content:"";display:block;position:absolute;z-index:-1}#login-card:after{background:linear-gradient(225deg,#e9f4ff,rgba(233,244,255,0) 70%);height:560px;right:-80px;width:560px}#careers-hero{background:#f5f5f5 url(/images/shapes/section-divider-asymmetric-bottom.svg) no-repeat bottom;background-size:contain;padding-bottom:5vw}.gallery-hero{background-position:bottom;background-repeat:no-repeat;background-size:cover;padding-bottom:12vw;padding-top:10vw;transform-origin:50% 85%}.gallery-hero .lead a{color:hsla(0,0%,100%,.75)}.gallery-hero .lead a:hover{color:#fff}.gallery-hero:after{background:#fff;bottom:-2px;content:"";display:block;height:4px;position:absolute;width:100%;z-index:1}.overlay{height:100%;position:absolute;top:0;width:100%}#landing-hero{background-image:linear-gradient(rgba(255,74,158,.2),rgba(255,74,158,0) 50%),url(/images/home/landing-hero-background.jpg),linear-gradient(60deg,#5c00c3 16%,#ff4a9e 85%);padding-bottom:8vw}#landing-hero .row-container:first-child{z-index:2}#landing-hero .overlay{background:linear-gradient(-8deg,transparent 35%,#130e87 75%)}@media (max-width:768px){#landing-hero{padding-bottom:18vw}}#discount-hero{box-shadow:none;margin-bottom:0;padding-bottom:48px}.play-button-container{align-items:center;background:linear-gradient(120deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.2));border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px;box-shadow:0 24px 72px 0 rgba(0,0,0,.5);display:flex;height:164px;justify-content:center;transition:all .3s cubic-bezier(.4,0,.2,1);width:164px}.play-button-container.play-button-container-small{height:134px;width:134px}.play-button-container:hover{cursor:pointer;transform:scale(.96)}.play-button-container:hover .play-button{transform:scale(1.16)}@media (max-width:960px){.play-button-container{transform:scale(.8)}}@media (max-width:670px){.play-button-container{margin:0 auto -20%}}.play-button-container .play-button{align-items:center;background:#fff;border-radius:100%;box-shadow:0 8px 16px 0 rgba(0,0,0,.3);display:flex;height:120px;justify-content:center;transition:all .3s cubic-bezier(.4,0,.2,1);width:120px;z-index:2}.play-button-container .play-button svg{height:34px;width:34px}.video .play-button-container{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);z-index:2}.video .play-button-container:hover{transform:translate(-50%,-50%) scale(.96)}.video .video-popup{position:relative}.video-popup-join-button{display:none}#landing-hero-collage{perspective:320px;perspective-origin:100%;position:relative}#hero-video-container{margin:0;transform:translateZ(0)}#landing-hero-video{box-shadow:-96px 96px 96px -64px rgba(23,16,159,.5),-200px 160px 160px -100px rgba(23,16,159,.1);margin-left:20%;margin-top:-115%;max-width:none;transform:rotateY(0deg) rotateX(-16deg) rotateX(24deg) skewY(-16deg) skewX(32deg);width:150%}@media (max-width:1024px){#landing-hero-video{margin-top:-140%;width:180%}}.elevation-4,.video-popup .video-play-icon,.website-pack-preview span,a .card:hover,a.card:hover,a.elevation-3:hover{box-shadow:0 10px 70px 0 rgba(103,151,255,.22),0 15px 105px 0 rgba(103,151,255,.22)}.elevation-1-hover,.elevation-2-hover,.elevation-3-hover{box-shadow:0 0 0 0 transparent,0 0 0 0 transparent}.elevation-1,a.elevation-1-hover:hover{box-shadow:0 2px 8px 0 rgba(103,151,255,.09),0 4px 32px 0 rgba(103,151,255,.09)}.elevation-2,a.elevation-1:hover,a.elevation-2-hover:hover{box-shadow:0 4px 24px 0 rgba(103,151,255,.1),0 12px 64px 0 rgba(103,151,255,.1)}.elevation-3,a.elevation-2:hover,a.elevation-3-hover:hover{box-shadow:0 8px 60px 0 rgba(103,151,255,.11),0 12px 90px 0 rgba(103,151,255,.11)}.guarantee{color:#34dd87;font-weight:700}.guarantee .tooltip_hover{background:#34dd87;color:#fff}.guarantee .tooltip_hover:after{background:#34dd87}.blurb .icon-container,.blurb>img,.blurb>svg{margin-bottom:16px}.blurb .circle-image{border-radius:120px;max-width:120px}.icon-blurb{display:flex;text-align:left}.icon-blurb .icon-circle,.icon-blurb img,.icon-blurb svg{margin-bottom:0}.icon-blurb .icon-circle+*,.icon-blurb img+*,.icon-blurb svg+*{margin-left:16px}.icon-blurb.icon-blurb-title-only{align-items:center}.icon-list{position:relative}.icon-list svg{display:inline-block;height:20px;margin-bottom:-4px;width:20px}.icon-list svg+*{display:inline-block;margin-left:4px}.rellax{transition:none}.quote-icon{fill:#e9f4ff}#intercom-modal{position:relative}#intercom-modal:after{background:linear-gradient(25deg,#e9f4ff,rgba(233,244,255,0) 60%);border-radius:2000px;bottom:-40px;content:"";display:block;height:1000px;left:-100px;position:absolute;width:1000px;z-index:-1}.image-collage{height:auto;position:relative;width:100%}.image-collage img{position:absolute}#pricing-table-image-collage img:first-of-type{margin-bottom:18%;max-width:61%;position:relative}#pricing-table-image-collage img:nth-of-type(2){max-width:47%;right:0;top:11%}#pricing-table-image-collage img:last-of-type{bottom:0;left:27%;max-width:67%}#pricing-model,.row-with-card-column{margin-bottom:144px}#pricing-model .column-container,.row-with-card-column .column-container{padding-top:24px}#pricing-model .column-container.card,.row-with-card-column .column-container.card{margin-bottom:-144px;padding-bottom:80px}#pricing-model svg,.row-with-card-column svg{bottom:-35%;margin-left:-10%;position:absolute;width:65%;z-index:-1}#company-stats .headline-2{margin-bottom:0}.portrait-grid img{border-radius:100%;margin-top:16px;max-width:180px}.tooltip_hover{opacity:0;position:absolute;visibility:hidden}.menu-item svg{content:" ";position:absolute;right:24px;top:14px;transform:rotate(-90deg);transition:all .3s cubic-bezier(.4,0,.2,1);z-index:-1}.menu-item svg.menu-expand{opacity:1}.menu-item svg.menu-collapse{fill:rgba(109,124,144,.3);opacity:0}.active .menu-item svg{transform:rotate(0deg)}.active .menu-item svg.menu-expand{opacity:0}.active .menu-item svg.menu-collapse{opacity:1}#main-nav{background:#fff;padding:8px 0;position:fixed;top:0;width:100%;z-index:99999999}.js-ready #main-nav{transition:all .2s ease-in-out}#main-nav .row-container{align-items:center;display:flex;width:1440px}#main-nav #logos{margin:0;max-height:80px;opacity:1;transition:all .3s cubic-bezier(.4,0,.2,1);width:109px}#main-nav #logos img{max-width:100%}#main-nav .hamburger{border-radius:3px;cursor:pointer;display:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}#main-nav .hamburger span{background:#ff4a9e;border-radius:3px;display:block;height:3px;transform-origin:center;transition:all .3s cubic-bezier(.4,0,.2,1);width:24px}#main-nav .hamburger span:nth-child(2){margin:4px 0}#main-nav .hamburger.toggled span{background:#ff4a9e!important}#main-nav .hamburger.toggled span:first-child{transform:translateY(6px) rotate(45deg)}#main-nav .hamburger.toggled span:last-child{transform:translateY(-8px) rotate(-45deg)}#main-nav .hamburger.toggled span:nth-child(2){opacity:0}#main-nav .menu-bg-wrapper{left:0;margin-top:-8px;opacity:0;position:absolute;top:100%;visibility:hidden;will-change:opacity;z-index:3}.et_fixed_nav#main-nav .menu-bg-wrapper{margin-top:0}.mouse-ready.js-ready #main-nav .menu-bg-wrapper.is-visible{opacity:1;visibility:visible}#main-nav .menu-bg-wrapper .menu-bg{background:#fff;border-radius:5px;box-shadow:0 12px 40px 0 rgba(23,16,159,.2),0 70px 100px -60px rgba(23,16,159,.4);height:304px;transform-origin:left top;width:304px;will-change:transform;z-index:999}.transparent-header #main-nav .menu-bg-wrapper .menu-bg{box-shadow:0 12px 40px 0 rgba(23,16,159,.4),0 70px 100px -60px rgba(23,16,159,.6)}#main-nav .menu-bg-wrapper .menu-arrow{background:#fff;border-radius:2000px;border-radius:6px;content:"";display:block;height:30px;left:-20px;position:absolute;top:-12px;transform:rotate(45deg) translateX(-70%);width:30px;z-index:-1;z-index:9}#main-nav nav>ul,#main-nav nav>ul a,#main-nav nav>ul li{margin:0}
+					#main-nav nav{flex:1;justify-content:flex-end}#main-nav nav,#main-nav nav>ul{align-items:center;display:flex}#main-nav nav>ul{position:relative}#main-nav nav>ul li{position:relative;z-index:999}#main-nav nav>ul li:hover>a{color:#20292f}#main-nav nav a.menu-item{color:rgba(32,41,47,.6);display:flex;flex-direction:column;height:80px;justify-content:center;padding:0 24px}#main-nav nav #accounts-button,#main-nav nav #pricing-button{align-self:center;margin:0 0 0 24px;min-width:160px}#main-nav.transparent-header,.transparent-header #main-nav{background:transparent}#main-nav.transparent-header a.menu-item,.transparent-header #main-nav a.menu-item{color:#fff}#main-nav.transparent-header #pricing-button,.transparent-header #main-nav #pricing-button{background:#fff;color:#ff4a9e!important}#main-nav.transparent-header .hamburger span,.transparent-header #main-nav .hamburger span{background:#fff}#main-nav.transparent-header-dark{background:transparent}#main-nav .sub-menu{background:none;box-shadow:none;left:50%;opacity:0;padding-top:16px;pointer-events:none;position:absolute;top:80px;transform:translateX(-50%);transition:none;visibility:hidden;width:320px;z-index:9999}#main-nav .sub-menu.sub-menu-wide{width:464px}#main-nav .sub-menu.sub-menu-wider{width:488px}#main-nav .sub-menu .icon-blurb>div{position:relative}#main-nav .sub-menu hr{background-image:linear-gradient(90deg,#d3e0ea,rgba(211,224,234,0));border-width:0;display:block;height:2px;margin:12px 0 8px;width:100%}#main-nav .sub-menu.horizontal-menu{padding-top:24px}#main-nav .sub-menu.horizontal-menu .menu-items{display:flex;margin-bottom:0}#main-nav .sub-menu.horizontal-menu .menu-items svg{display:initial;margin-bottom:8px}#main-nav .sub-menu.horizontal-menu .menu-items li{border-radius:8px;flex:1;margin:0 8px;padding:0;transition:all .2s ease}#main-nav .sub-menu.horizontal-menu .menu-items li:first-of-type{margin-left:0}#main-nav .sub-menu.horizontal-menu .menu-items li:last-of-type{margin-right:0}#main-nav .sub-menu.horizontal-menu .menu-items li p{font-size:1em;line-height:1.6em}#main-nav .sub-menu.horizontal-menu .menu-items li a{border-radius:8px;display:block;padding:16px;text-align:center}#main-nav .sub-menu.horizontal-menu .menu-items li:hover{transform:scale(.98)}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-purple{background:linear-gradient(120deg,rgba(143,66,236,.04),rgba(143,66,236,.1))}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-purple p{color:#614484}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-blue{background:linear-gradient(120deg,rgba(55,118,255,.04),rgba(55,118,255,.1))}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-blue p{color:#34559c}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-green{background:linear-gradient(120deg,rgba(52,221,135,.04),rgba(52,221,135,.1))}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-green p{color:#436855}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-orange{background:linear-gradient(120deg,rgba(255,123,43,.04),rgba(255,123,43,.1))}#main-nav .sub-menu.horizontal-menu .menu-items li.accent-orange p{color:#935631}#main-nav .sub-menu.horizontal-menu .menu-items h3{line-height:1.3em;margin:0 0 8px}#main-nav .sub-menu.horizontal-menu .menu-items h3:after{content:""}#main-nav .sub-menu.sub-menu-extra-extra-wide{transform:translateX(-26%);width:900px}#main-nav .sub-menu.sub-menu-extra-wide{display:flex;flex-wrap:wrap;transform:translateX(-23%);width:1000px}#main-nav .sub-menu.sub-menu-extra-wide .menu-block-wide{flex:9}#main-nav .sub-menu.sub-menu-extra-wide .menu-block-wide .menu-items{float:left;width:50%}#main-nav .sub-menu.sub-menu-extra-wide .menu-block-wide>h3{color:#74899a;font-size:1em;margin-bottom:0;margin-top:8px}#main-nav .sub-menu.sub-menu-extra-wide .menu-block-wide ul{flex:2}#main-nav .sub-menu.sub-menu-extra-wide .button{margin-top:16px}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container{background:linear-gradient(90deg,rgba(109,124,144,.04) 95%,rgba(109,124,144,.07));border-radius:4px 0 0 4px;flex:3;margin:-16px 24px -24px -24px!important;padding:16px 24px 24px}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container li:last-of-type a{padding-bottom:0}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container>h3{color:#74899a;font-size:1em;margin-top:8px}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container .subhead{-webkit-text-fill-color:transparent;background:linear-gradient(120deg,#8196a6,#536a7c);-webkit-background-clip:text;color:#8196a6}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container svg{fill:#adbfcf;transition:fill .2s ease-in-out}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container svg .transparent{fill:rgba(173,191,207,.5);transition:fill .2s ease-in-out}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container a:hover svg{fill:#20292f}#main-nav .sub-menu.sub-menu-extra-wide .card-inset-container a:hover svg .transparent{fill:rgba(32,41,47,.5)}#main-nav .sub-menu ul>a,#main-nav .sub-menu ul>li{margin:0;transition:all .2s ease-in-out}#main-nav .sub-menu ul>a:hover h3:after,#main-nav .sub-menu ul>li:hover h3:after{opacity:1;transform:translateX(24px) scale(1)}#main-nav .sub-menu ul>a:hover p,#main-nav .sub-menu ul>li:hover p{color:#20292f}#main-nav .sub-menu ul>a:hover .icon-circle,#main-nav .sub-menu ul>li:hover .icon-circle{transform:scale(1.1)}#main-nav .sub-menu ul h3{margin:-.3em 0 0;position:relative}#main-nav .sub-menu ul h3:after{fill:#20292f;content:url(/images/icons/menu-arrow.svg);display:block;opacity:0;position:absolute;right:0;top:3px;transform:translateX(16px) scale(.7);transition:all .2s ease-in-out;width:16px;z-index:1}#main-nav .sub-menu ul p{font-size:.85em;line-height:1.4em;transition:all .2s ease-in-out}#main-nav .sub-menu ul.menu-items div{align-items:center;display:flex;flex-wrap:wrap}#main-nav .sub-menu ul.menu-items h3{margin:0 12px 0 0}#main-nav .sub-menu ul.menu-items a{padding:6px 0}#main-nav .sub-menu ul.primary-menu-items a{padding:.6em 0}#main-nav .sub-menu ul.primary-menu-items h3{font-size:1em;margin-right:24px;position:relative;width:auto}#main-nav .sub-menu>.card-inset-container{margin-top:0}#main-nav.et_fixed_nav{background:#fff;box-shadow:0 4px 24px 0 rgba(103,151,255,.1),0 12px 64px 0 rgba(103,151,255,.1);padding:0}#main-nav.et_fixed_nav #logos{max-height:60px;width:80px}#main-nav.et_fixed_nav a.menu-item{color:rgba(32,41,47,.6);height:60px;padding:0 24px;transition:all .3s cubic-bezier(.4,0,.2,1)}#main-nav.et_fixed_nav .sub-menu{top:60px}#main-nav.et_fixed_nav nav>ul li:hover>a{color:#20292f}#main-nav.et_fixed_nav #pricing-button{background:linear-gradient(120deg,rgba(255,74,158,0),#ff3190);background-color:#ff4ac2;color:#fff!important}#main-nav.et_fixed_nav #pricing-button:hover{background-color:#ff59d0}#main-nav.et_fixed_nav #accounts-button,#main-nav.et_fixed_nav #pricing-button{padding-bottom:8px;padding-top:8px}#main-nav.et_fixed_nav .hamburger span{background:#ff4a9e}#main-nav .et-main-account-menu .et_account_login_form{width:100%}#main-nav .et-main-account-menu #account-downloads-button,#main-nav .et-main-account-menu .et_account_login_form,#main-nav .et-main-account-menu>.menu-items{display:none;float:left;text-align:center}#main-nav .et-main-account-menu p,#main-nav .et-main-account-menu span{font-size:15px}.icon-circle{border-radius:100px;flex-shrink:0;height:48px;transition:all .2s ease-in-out;width:48px}.icon-circle svg{fill:#fff!important;margin:auto}.icon-circle svg .transparent{fill:hsla(0,0%,100%,.5)!important}.js-ready.mouse-ready #main-nav nav>ul li:hover .sub-menu{opacity:1;pointer-events:auto;transition:all .15s ease-in-out .1s;visibility:visible}.js-ready.mouse-ready .is-animatable.menu-arrow,.js-ready.mouse-ready .is-animatable.menu-bg{transition:all .2s ease-in-out}.js-ready.mouse-ready .is-visible.menu-bg-wrapper{animation:fade-in .2s ease-in-out}.et_fixed_nav_transition .menu-bg,.et_fixed_nav_transition .sub-menu{transition:all .2s ease-in-out 0ms!important}.dark-background .button.highlight-pricing-button,.highlight-pricing-button{background:linear-gradient(120deg,rgba(52,221,135,0),#24d47a)!important;background-color:#34dd65!important;color:#fff!important}.dark-background .button.highlight-pricing-button:hover,.highlight-pricing-button:hover{background-color:#41df67!important}.pricing-button-wrapper{position:relative}.pricing-button-wrapper.et-highlighted{transform:none}.menu-callout{opacity:0;position:absolute;visibility:hidden}#search-form{display:flex;max-width:100%;position:relative;width:450px}#search-form
+					 .search-icon{height:28px;position:absolute;right:8px;top:24px;width:auto;z-index:2}#flyinwrapper,
+					 .cover-popup{display:none}.promo-slide-in{animation:promo-slide-in .3s cubic-bezier(.4,0,.2,1);display:none !important;height:40px;
+					 overflow:hidden!important;position:fixed;top:0;transition:all .3s cubic-bezier(.4,0,.2,1);width:100%;z-index:99999999}
+					 .large-slide-in .promo-slide-in{height:80px}.promo-slide-in-content{animation:promo-fade-in .3s cubic-bezier(.4,0,.2,1);text-align:center}
+					 .promo-slide-in-content h6{color:#fff;display:inline-block;height:40px;line-height:40px;margin:0;vertical-align:middle;width:auto}.promo-slide-in-content 
+					 .button{margin:0;padding:1px 20px;vertical-align:middle}.is-countdown{background-color:rgba(204,61,0,.5);border-radius:4px;display:inline-block;
+					 max-width:400px;padding:4px;width:100%}.gradient-background-blue .is-countdown{background-color:rgba(4,83,255,.5)}.countdown-row{clear:both;padding:0 2px;
+					 text-align:center;width:100%}.countdown-show1 .countdown-section{width:98%}.countdown-show2 .countdown-section{width:48%}.countdown-show3 .countdown-section{width:32.5%}
+					 .countdown-show4 .countdown-section{width:24.5%}.countdown-show5 .countdown-section{width:19.5%}.countdown-show6 .countdown-section{width:16.25%}
+					 .countdown-show7 .countdown-section{width:14%}.countdown-section{display:block;float:left;font-size:75%;text-align:center}.countdown-amount{color:#fff;font-size:24px;font-weight:900}
+					 .countdown-period{color:#fff;display:block;font-weight:900;margin-top:-10px}.gradient-background-blue .countdown-period{color:#009!important}
+					 .gradient-background-red .countdown-period{color:#900!important}.countdown-descr{display:block;width:100%}.card>.is-countdown{margin-top:0;padding-top:0}
+					 .sale-countdown-wrapper{margin:0 auto;max-width:100%;padding:24px;position:relative;text-align:center;width:480px}.sale-countdown-wrapper .subhead{margin-bottom:16px}
+					 #bottom-call-to-action .sale-countdown-wrapper{margin-bottom:2em;margin-top:.6em;padding:24px}.sale-countdown-wrapper .countdown-timer{background-color:transparent;
+					 gap:40px;justify-content:center;max-width:100%;min-height:70px;padding:0;width:400px}.sale-countdown-wrapper .countdown-timer 
+					 .countdown-period{color:#6d7c90!important;font-size:1.1em;letter-spacing:1.5px;margin-top:0;text-transform:uppercase}
+					 .sale-countdown-wrapper .countdown-timer .countdown-amount{color:#ff4c00;font-size:2.4em;font-weight:600}.sale-countdown-wrapper .button{margin-top:8px}.sale-countdown-wrapper~div{margin-bottom:0}#countdown-popup{display:none}form#et_manage_form{width:100%}#card-element,.et_card_number,input:not([type]),input[type=date],input[type=datetime-local],input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],select,textarea{background:rgba(109,124,144,.1);border:none;border:2px solid rgba(55,118,255,0);border-radius:5px;color:#20292f;display:block;font-family:Lato,sans-serif;font-size:.9em;font-weight:700;letter-spacing:.5px;line-height:1.83em;margin:16px 0;outline:none;padding:8px 12px;position:relative;text-align:left;transition:all .3s cubic-bezier(.4,0,.2,1);width:100%}input[type=submit]{font-family:Lato,sans-serif}.et_manage_input{display:flex;flex:1;position:relative}.et_manage_input input::-webkit-input-placeholder,.et_manage_input select::-webkit-input-placeholder,.et_manage_input textarea::-webkit-input-placeholder{color:rgba(109,124,144,.6)}.et_manage_input input:focus:not(.no-edit),.et_manage_input input:hover:not(.no-edit),.et_manage_input select:focus:not(.no-edit),.et_manage_input select:hover:not(.no-edit),.et_manage_input textarea:focus:not(.no-edit),.et_manage_input textarea:hover:not(.no-edit){border:2px solid #3776ff}.et_manage_input input:focus,.et_manage_input select:focus,.et_manage_input textarea:focus{background:rgba(109,124,144,0)}.et_manage_input input:focus+label,.et_manage_input select:focus+label,.et_manage_input textarea:focus+label{color:#3776ff}.et_filled.et_manage_input input+label,.et_filled.et_manage_input select+label,.et_filled.et_manage_input textarea+label,.et_manage_input input:focus+label,.et_manage_input select:focus+label,.et_manage_input textarea:focus+label{opacity:1;top:-.2em}.et_filled.et_manage_input input::-webkit-input-placeholder,.et_filled.et_manage_input select::-webkit-input-placeholder,.et_filled.et_manage_input textarea::-webkit-input-placeholder,.et_manage_input input:focus::-webkit-input-placeholder,.et_manage_input select:focus::-webkit-input-placeholder,.et_manage_input textarea:focus::-webkit-input-placeholder{color:transparent}.et_manage_input .et-stripe-cancel-card-change,.et_manage_input .et_filled,.et_manage_input label{color:rgba(109,124,144,.6);font-size:10px;font-weight:700;left:0;letter-spacing:1px;line-height:1.2em;opacity:0;pointer-events:none;position:absolute;text-align:left;text-transform:uppercase;top:-.2em;transition:all,.4s}.et_manage_input select{height:48px}.et_manage_input select+label{opacity:1;top:-2px}.et_manage_input .toggle-button{margin:16px 0;opacity:1;pointer-events:auto;position:relative}.et_manage_input .toggle-button .states{background:rgba(109,124,144,.1);border-radius:5px;padding:4px;transition:all .3s cubic-bezier(.4,0,.2,1)}.et_manage_input .toggle-button .states .button{color:#6d7c90!important;margin:0;padding:6px 12px;transform:none}.et_manage_input .toggle-button .states .labels .button{background:none}.et_manage_input .toggle-button .bubble{height:100%;left:0;position:absolute;top:0;width:100%}.et_manage_input .toggle-button .bubble span{background:#fff;border-radius:1px;box-shadow:none;display:block;position:absolute;top:4px;transition:all .3s cubic-bezier(.4,0,.2,1)}.et_manage_input .toggle-button .bubble span.state1{color:#6d7c90!important;left:4px;opacity:1}.et_manage_input .toggle-button .bubble span.state2{opacity:0;right:50%}.et_manage_input .toggle-button input[type=checkbox]:checked+.states{background:#3776ff}.et_manage_input .toggle-button input[type=checkbox]:checked+.states .button{color:#fff!important}.et_manage_input .toggle-button input[type=checkbox]:checked+.states .button.state1{left:50%;opacity:0}.et_manage_input .toggle-button input[type=checkbox]:checked+.states .button.state2{color:#3776ff!important;opacity:1;right:4px}.et_manage_input .toggle-button+label{opacity:1;top:-2px}.et_manage_input.et_manage_input_dense input:not([type]),.et_manage_input.et_manage_input_dense input[type=date],.et_manage_input.et_manage_input_dense input[type=datetime-local],.et_manage_input.et_manage_input_dense input[type=email],.et_manage_input.et_manage_input_dense input[type=number],.et_manage_input.et_manage_input_dense input[type=password],.et_manage_input.et_manage_input_dense input[type=search],.et_manage_input.et_manage_input_dense input[type=tel],.et_manage_input.et_manage_input_dense input[type=text],.et_manage_input.et_manage_input_dense input[type=time],.et_manage_input.et_manage_input_dense input[type=url],.et_manage_input.et_manage_input_dense select,.et_manage_input.et_manage_input_dense textarea{font-size:.77em;letter-spacing:0;padding:7px}.et_manage_input.et_manage_input_dense select{height:39px}.comparison-table,.comparison-table .column-container{padding:0}.comparison-table .column-container:first-child{border-right:1px solid rgba(109,124,144,.12)}.comparison-table .comparison-table-column-header,.comparison-table .icon-blurb{align-items:center;border-bottom:1px solid rgba(109,124,144,.12);margin:0;padding:16px 32px}.comparison-table .icon-blurb:last-of-type{border:none;padding-bottom:24px}.help-tooltip{position:relative}.help-tooltip-icon{background:#1e65ff;border-radius:50px;color:#fff;font-size:12px;font-weight:800;margin-left:5px;padding:2px 7px}.help-tooltip-icon:hover+.help-tooltip-tooltip{opacity:1}.help-tooltip-tooltip{opacity:0;pointer-events:none}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[type=submit]{cursor:pointer;margin:16px 0}input[type=number]{-moz-appearance:textfield}input.no-edit{background:#fff;border-color:rgba(109,124,144,.1)}#captcha{display:flex}#captcha img{margin-left:20px;margin-top:16px;max-width:none}.gradient-background-green{background:radial-gradient(circle at top left,#34dd87 0,#34ddbf 100%);background-color:#34dd87;box-shadow:0 48px 48px -32px rgba(52,221,135,.12),0 96px 96px -64px rgba(52,221,135,.48)}.gradient-background-red{background:linear-gradient(120deg,rgba(255,76,0,0),#e64400);background-color:#ff7f00;box-shadow:0 48px 48px -32px rgba(255,76,0,.12),0 96px 96px -64px rgba(255,76,0,.48)}.gradient-background-orange{background:linear-gradient(120deg,rgba(255,123,43,0),#ff6b12);background-color:#ff7f00;box-shadow:0 48px 48px -32px rgba(255,123,43,.12),0 96px 96px -64px rgba(255,123,43,.48)}.gradient-background-blue{background:linear-gradient(120deg,rgba(55,118,255,0),#1e65ff);background-color:#374eff;box-shadow:0 48px 48px -32px rgba(55,118,255,.12),0 96px 96px -64px rgba(55,118,255,.48)}.gradient-background-purple{background:linear-gradient(120deg,rgba(143,66,236,0),#812bea);background-color:#b142ec;box-shadow:0 48px 48px -32px rgba(143,66,236,.12),0 96px 96px -64px rgba(143,66,236,.48)}.gradient-background-dark-blue{background-image:linear-gradient(60deg,#1c2bf7 10%,#061c59 90%)}.gradient-background-black{background:linear-gradient(120deg,rgba(32,41,47,0),#161c20);background-color:#20262f;box-shadow:0 48px 48px -32px rgba(32,41,47,.12),0 96px 96px -64px rgba(32,41,47,.48)}.gradient-background-pink{background:linear-gradient(120deg,rgba(255,74,158,0),#ff3190);background-color:#ff4a7a;box-shadow:0 48px 48px -32px rgba(255,74,158,.12),0 96px 96px -64px rgba(255,74,158,.48)}.gradient-background-teal{background:linear-gradient(120deg,rgba(0,181,230,0),#00a1cd);background-color:#0087e6;box-shadow:0 48px 48px -32px rgba(0,181,230,.12),0 96px 96px -64px rgba(0,181,230,.48)}.gradient-background-indigo{background:linear-gradient(120deg,rgba(74,66,236,0),#342bea);background-color:#6c42ec;box-shadow:0 48px 48px -32px rgba(74,66,236,.12),0 96px 96px -64px rgba(74,66,236,.48)}.gradient-background-navy{background:linear-gradient(120deg,rgba(41,48,56,0),#1e2329);background-color:#292d38;box-shadow:0 48px 48px -32px rgba(41,48,56,.12),0 96px 96px -64px rgba(41,48,56,.48)}.card.background-local-green{background-color:#51bb7c}.background-light-gray{background-color:#e7e9ed}@media only screen and (max-width:1100px){#main-nav nav a.menu-item{padding:0 16px}}@media only screen and (min-width:1025px){.perspective-right{margin-bottom:16%;perspective:600px;perspective-origin:100%}.product-feature .perspective-right{margin-top:8%}.skew-right{transform:rotateY(-16deg) rotateX(8deg) skew(-10deg,8deg) scale(1.1) translateX(-8%)}.perspective-left{margin-bottom:16%;perspective:600px;perspective-origin:0}.product-feature .perspective-left{margin-top:8%}.skew-left{transform:rotateY(16deg) rotateX(8deg) skew(10deg,-8deg) scale(1.1) translateX(8%)}}@media only screen and (min-width:1024px){svg.menu-collapse,svg.menu-expand{display:none;opacity:0;visibility:hidden}}@media only screen and (max-width:1024px){html.mobile-menu{height:100vh;overflow:hidden}#main-nav .et-main-account-menu #account-downloads-button,#main-nav .et-main-account-menu .et_account_login_form,#main-nav .et-main-account-menu>.menu-items{float:none}#main-nav .et-main-account-menu #account-downloads-button{display:none!important}#main-nav,#main-nav.et_fixed_nav,#main-nav.transparent-header{height:80px}#main-nav .row-container,#main-nav.et_fixed_nav .row-container,#main-nav.transparent-header .row-container{justify-content:space-between}body.mobile-menu #main-nav,body.mobile-menu #main-nav.et_fixed_nav,body.mobile-menu #main-nav.transparent-header{background:#fff}#main-nav .menu-bg-wrapper,#main-nav .menu-bg-wrapper.is-visible,#main-nav.et_fixed_nav .menu-bg-wrapper,#main-nav.et_fixed_nav .menu-bg-wrapper.is-visible,#main-nav.transparent-header .menu-bg-wrapper,#main-nav.transparent-header .menu-bg-wrapper.is-visible{opacity:0!important;visibility:hidden!important}#main-nav nav,#main-nav.et_fixed_nav nav,#main-nav.transparent-header nav{display:none;opacity:0;transition:all .3s cubic-bezier(.4,0,.2,1);visibility:hidden}#main-nav nav.toggled,#main-nav.et_fixed_nav nav.toggled,#main-nav.transparent-header nav.toggled{display:flex;opacity:1;visibility:visible}#main-nav nav .pricing-button-wrapper,#main-nav.et_fixed_nav nav .pricing-button-wrapper,#main-nav.transparent-header nav .pricing-button-wrapper{background:#fff;bottom:0;left:0;padding:24px;position:fixed;right:0;text-align:center;width:100%}#main-nav nav .pricing-button-wrapper #pricing-button,#main-nav.et_fixed_nav nav .pricing-button-wrapper #pricing-button,#main-nav.transparent-header nav .pricing-button-wrapper #pricing-button{background:#ff4a9e;color:#fff!important}#main-nav nav .pricing-button-wrapper #pricing-button,#main-nav nav .pricing-button-wrapper #pricing-button #accounts-button,#main-nav.et_fixed_nav nav .pricing-button-wrapper #pricing-button,#main-nav.et_fixed_nav nav .pricing-button-wrapper #pricing-button #accounts-button,#main-nav.transparent-header nav .pricing-button-wrapper #pricing-button,#main-nav.transparent-header nav .pricing-button-wrapper #pricing-button #accounts-button{margin:0}#main-nav nav .menu,#main-nav.et_fixed_nav nav .menu,#main-nav.transparent-header nav .menu{overflow-y:auto;padding:0 0 100px;width:100%}#main-nav nav a.menu-item,#main-nav.et_fixed_nav nav a.menu-item,#main-nav.transparent-header nav a.menu-item{color:rgba(32,41,47,.6);height:60px}#main-nav nav>ul,#main-nav.et_fixed_nav nav>ul,#main-nav.transparent-header nav>ul{position:fixed}#main-nav nav ul,#main-nav.et_fixed_nav nav ul,#main-nav.transparent-header nav ul{background:#f2f4f5;bottom:0;flex-direction:column;left:0;margin:0;top:80px;transition:all .3s cubic-bezier(.4,0,.2,1)}body.with_promo_slide_in #main-nav nav ul,body.with_promo_slide_in #main-nav.et_fixed_nav nav ul,body.with_promo_slide_in #main-nav.transparent-header nav ul{top:120px}body.large-slide-in #main-nav nav ul,body.large-slide-in #main-nav.et_fixed_nav nav ul,body.large-slide-in #main-nav.transparent-header nav ul{top:160px}#main-nav nav ul li,#main-nav.et_fixed_nav nav ul li,#main-nav.transparent-header nav ul li{cursor:pointer;flex-direction:column;width:100%}#main-nav nav ul li #divi-sub-menu.sub-menu,#main-nav nav ul li .sub-menu,#main-nav nav ul li .sub-menu-wide,#main-nav.et_fixed_nav nav ul li #divi-sub-menu.sub-menu,#main-nav.et_fixed_nav nav ul li .sub-menu,#main-nav.et_fixed_nav nav ul li .sub-menu-wide,#main-nav.transparent-header nav ul li #divi-sub-menu.sub-menu,#main-nav.transparent-header nav ul li .sub-menu,#main-nav.transparent-header nav ul li .sub-menu-wide{background:#fff;border-radius:0;display:none;left:auto;opacity:1;padding:16px;position:static;top:auto;transform:none;transition:none!important;visibility:visible;width:100%!important;z-index:auto}#main-nav nav ul li #divi-sub-menu.sub-menu .menu-items,#main-nav nav ul li .sub-menu .menu-items,#main-nav nav ul li .sub-menu-wide .menu-items,#main-nav.et_fixed_nav nav ul li #divi-sub-menu.sub-menu .menu-items,#main-nav.et_fixed_nav nav ul li .sub-menu .menu-items,#main-nav.et_fixed_nav nav ul li .sub-menu-wide .menu-items,#main-nav.transparent-header nav ul li #divi-sub-menu.sub-menu .menu-items,#main-nav.transparent-header nav ul li .sub-menu .menu-items,#main-nav.transparent-header nav ul li .sub-menu-wide .menu-items{background:#fff}#main-nav nav ul li #divi-sub-menu.sub-menu ul,#main-nav nav ul li .sub-menu ul,#main-nav nav ul li .sub-menu-wide ul,#main-nav.et_fixed_nav nav ul li #divi-sub-menu.sub-menu ul,#main-nav.et_fixed_nav nav ul li .sub-menu ul,#main-nav.et_fixed_nav nav ul li .sub-menu-wide ul,#main-nav.transparent-header nav ul li #divi-sub-menu.sub-menu ul,#main-nav.transparent-header nav ul li .sub-menu ul,#main-nav.transparent-header nav ul li .sub-menu-wide ul{margin-bottom:0!important;margin-right:0}#main-nav nav ul li #divi-sub-menu.sub-menu li,#main-nav nav ul li .sub-menu li,#main-nav nav ul li .sub-menu-wide li,#main-nav.et_fixed_nav nav ul li #divi-sub-menu.sub-menu li,#main-nav.et_fixed_nav nav ul li .sub-menu li,#main-nav.et_fixed_nav nav ul li .sub-menu-wide li,#main-nav.transparent-header nav ul li #divi-sub-menu.sub-menu li,#main-nav.transparent-header nav ul li .sub-menu li,#main-nav.transparent-header nav ul li .sub-menu-wide li{animation:fade-in}#main-nav nav .sub-menu.sub-menu-extra-wide .card-inset-container,#main-nav.et_fixed_nav nav .sub-menu.sub-menu-extra-wide .card-inset-container,#main-nav.transparent-header nav .sub-menu.sub-menu-extra-wide .card-inset-container{background:#fff!important;border-radius:0;margin:0!important;padding:0 0 16px!important}#main-nav nav .horizontal-menu .menu-items li,#main-nav.et_fixed_nav nav .horizontal-menu .menu-items li,#main-nav.transparent-header nav .horizontal-menu .menu-items li{margin:8px 0}#main-nav nav .horizontal-menu .menu-items li:last-of-type,#main-nav.et_fixed_nav nav .horizontal-menu .menu-items li:last-of-type,#main-nav.transparent-header nav .horizontal-menu .menu-items li:last-of-type{margin-bottom:0}#main-nav nav .button,#main-nav.et_fixed_nav nav .button,#main-nav.transparent-header nav .button{margin-top:16px}#main-nav nav #accounts-button,#main-nav nav #pricing-button,#main-nav.et_fixed_nav nav #accounts-button,#main-nav.et_fixed_nav nav #pricing-button,#main-nav.transparent-header nav #accounts-button,#main-nav.transparent-header nav #pricing-button{display:block!important;margin-top:0}#main-nav .hamburger,#main-nav.et_fixed_nav .hamburger,#main-nav.transparent-header .hamburger{display:block;padding:22px 0}#main-nav.et_fixed_nav{height:60px}#main-nav.et_fixed_nav nav ul{top:60px}#builder-preview .column-container:first-of-type{flex:0 0 100%!important;margin-bottom:2em;max-width:100%!important;order:1}#builder-preview .column-container:nth-of-type(n+2){margin-bottom:0;margin-top:0;order:2}.website-pack-preview span:nth-child(n){max-width:100%;width:180px}.website-pack-preview span:nth-child(n):nth-child(2),.website-pack-preview span:nth-child(n):nth-child(3){display:none;visibility:hidden}.website-pack-preview:hover span:first-child{width:180px}}@media only screen and (max-width:960px){.card-button-navigation{flex:0 0 100%!important;margin-bottom:4%;max-width:100%!important}.card-button-navigation .column{flex-direction:row}.card-button-navigation .column .card{flex:1;margin:8px}}@media only screen and (max-width:768px){.hide-on-tablet{display:none}.card-button-navigation .column{flex-wrap:wrap}.card-button-navigation .column .card{flex-basis:40%;padding:8px}.tab-navigation li a.callout{display:none!important}.sale-countdown-wrapper .countdown-timer{min-height:40px}.sale-countdown-wrapper .countdown-timer .countdown-period{font-size:2vw}.sale-countdown-wrapper .countdown-timer .countdown-amount{font-zie:6vw}}@media only screen and (max-width:670px){.tooltip_hover{display:none!important}}@media only screen and (max-width:480px){.hide-on-mobile{display:none}.card{padding:16px}.card .card-inset-container{margin:16px -16px;padding:16px}.card .card-inset-container:first-child{margin-top:-16px}.card .card-inset-container:last-child{margin-bottom:-16px!important}}@media (-ms-high-contrast:active),(-ms-high-contrast:none){#footer-menu h3,.button.primary-button span,.card-title,.headline-1,.headline-2,.headline-3,.headline-4,.package_price .price,.subhead,.subhead-small,.subhead-tiny,.tab-navigation-narrow,nav a.menu-item{background-image:none!important}}.errors,.et_errors,.et_info,.et_reset_form_errors,.et_success,.et_warning{animation-duration:.5s;animation-name:bounceIn;background:#e0466f12;border:2px solid #ff4c00;border-radius:4px;color:#ff4c00;display:block;font-size:.8em;font-weight:600;line-height:1.4em;margin:24px 0!important;padding:20px!important}.et_warning{background:rgba(255,173,0,.1);border:2px solid #ffad00;color:#ffad00}.et_info{background:rgba(5,201,255,.1);border:2px solid #05c9ff;color:#05c9ff}.et_success{background:rgba(52,221,135,.1);border:2px solid #34dd87;color:#34dd87}.errors a,.errors a:hover,.et_errors a,.et_errors a:hover,.et_info a,.et_info a:hover,.et_success a,.et_success a:hover,.et_warning a,.et_warning a:hover{color:#ff4c00;text-decoration:underline}.et_warning a,.et_warning a:hover{color:#ffad00}.et_info a,.et_info a:hover{color:#05c9ff}.et_success a,.et_success a:hover{color:#34dd87}.errors p,.errors strong,.et_errors p,.et_errors strong,.et_success p,.et_success strong,.et_warning p,.et_warning strong{color:#ff4c00;font-size:14px;font-weight:600;margin-bottom:0}.et_warning p,.et_warning strong{color:#ffad00}.et_success p,.et_success strong{color:#34dd87}.et-highlighted-overlay{opacity:0;pointer-events:none;visibility:hidden}@keyframes fade-in{0%{opacity:0}to{opacity:1}}
+ </style>
+
+<link rel="stylesheet" type="text/css" href="./landing/css/style.css" media="all" onload="this.media='all'">
+<style>
+body{background-color:#000}.dark-background h1,.dark-background h2,.dark-background h3,.dark-background h4,body h1,body h2,body h3,body h4{color:#ff9800}.dark-background p,body p{color:#ffffff}#flyin h1,#flyin h2,#flyin h3,#flyin h4,.cover-popup h1,.cover-popup h2,.cover-popup h3,.cover-popup h4{color:#20292f}#flyin p,.cover-popup p{color:#6d7c90}.light-background{background:#fff}.light-background h1,.light-background h2,.light-background h3,.light-background h4{color:#293038!important}.light-background p{color:#6d7c90}#main-footer{background:none}#main-footer #social-accounts a.card{background-color:#293038;color:#a2b0c1}#main-footer #social-accounts a.card:not(:hover){box-shadow:none}#main-footer #footer-menu h3,#main-footer #social-accounts a.card span{color:#fff}body{overflow:visible}#divi-hero,section:not(#global-control,#quick-sites,#guarantee,#pricing){overflow:hidden}#divi-hero{background-repeat:no-repeat;background-size:cover;padding-bottom:5vw;padding-top:clamp(100px,10vw,10vw)!important}#divi-hero .trustpilot-widget-subhead{margin-bottom:2em!important}#divi-hero video{background-color:transparent;cursor:auto;-o-object-fit:cover;object-fit:cover;-o-object-position:50% 50%;object-position:50% 50%;right:0;z-index:-1}#divi-hero video,#divi-hero:before{height:100%;position:absolute;top:0;width:100%}#divi-hero:before{background:linear-gradient(transparent,#293646),linear-gradient(50deg,#000 20%,rgb(4 173 246 / 50%));content:"";left:0;pointer-events:none;z-index:0}#divi-hero h1{margin-bottom:0}#divi-hero h2{-webkit-text-fill-color:#fff;background:none;color:#fff}#divi-hero .inline-elements>*{margin-right:20px}#divi-hero .play-button{background:none;padding-left:0;padding-right:0}section .row-container{margin:auto;max-width:1280px;position:relative;width:90%}section .row-container.narrow{max-width:90%}.divi-5-promo{align-items:center;border-radius:26px;display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:3% auto;padding:8px 12px;z-index:1}@media (max-width:900px){.divi-5-promo{border-radius:8px;gap:8px;padding:16px}}.divi-5-promo>span{align-items:center;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.divi-5-promo>span>*{margin:0;width:auto}.divi-5-promo h4{color:#20292f}.divi-5-promo h4 span{font-size:1.8rem;margin-right:5px;vertical-align:bottom}.divi-5-promo .button{border:2px solid;padding:2px 12px}.divi-5-promo .button:first-child{background:#20292f;border-color:transparent;color:#ffad00!important}.divi-5-promo .button:nth-child(2){background:transparent;border-color:#20292f;color:#20292f!important}#no-code-video-slider .column-container:first-of-type .column{padding:25% 0}@media (max-width:670px){#no-code-video-slider .column-container:first-of-type .column{padding:0}}#no-code-video-slider .video-slide-blurb{border:2px solid transparent;border-radius:8px;cursor:pointer;margin-bottom:0;margin-left:-16px;opacity:.5;padding:8px 16px;position:relative;transition:all .6s ease}#no-code-video-slider .video-slide-blurb.active{border-color:#8f42ec;margin-bottom:16px;margin-top:16px;opacity:1;padding:20px 16px}#no-code-video-slider .video-slide-blurb.active .video-slider-play-icon{display:none}#no-code-video-slider .video-slide-blurb.active .text-wrapper{height:auto;max-height:none;opacity:1}#no-code-video-slider .video-slide-blurb.active .progress-line,#no-code-video-slider .video-slide-blurb:hover{opacity:1}#no-code-video-slider .video-slide-blurb:last-of-type{margin-bottom:20px}#no-code-video-slider .video-slide-blurb .video-slide-blurb-title{align-items:center;display:flex}#no-code-video-slider .video-slide-blurb .text-wrapper{height:0;opacity:0;overflow:hidden;transition:all .6s ease}#no-code-video-slider .video-slide-blurb .progress-line{background:linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.1) 10%,hsla(0,0%,100%,.5) 70%,#fff);border-radius:4px;height:0;left:-16px;opacity:0;position:absolute;top:0;transition:opacity .5s ease,height .5s ease;width:4px}#no-code-video-slider .slider-video{background:#42afec;border-radius:0 4px 4px 0;box-shadow:0 40px 80px 0 rgba(0,0,0,.3);opacity:0;position:absolute;transition:opacity .3s ease;width:85%}#no-code-video-slider .slider-video:first-child{position:relative;width:100%}#no-code-video-slider .slider-video.active{opacity:1;z-index:1}#no-code-video-slider .video-column{opacity:0;transition:opacity .3s ease-in-out}#no-code-video-slider .video-column .column{justify-content:center;min-height:750px;padding:15% 15% 15% 0;position:relative}@media (max-width:670px){#no-code-video-slider .video-column .column{min-height:70vw}}.headline-3-inline-pill{border:2px solid;border-radius:100px;font-weight:600;padding:0 20px}.headline-3-inline-pill:first-of-type{color:#8f42ec}.headline-3-inline-pill:nth-of-type(2){color:#ff4c00}.headline-3-inline-pill:nth-of-type(3){color:#3776ff}#divi-ui-collage{margin-top:3%;position:relative}#divi-ui-collage:after{background-color:#00aaff;border-radius:100%;bottom:0;content:"";filter:blur(120px);left:0;opacity:.8;position:absolute;right:0;top:-40px;z-index:-1}#divi-ui-collage img{border-radius:4px}#divi-ui-collage img:first-of-type{margin:auto;width:80%}#divi-ui-collage img:nth-of-type(2){box-shadow:0 10px 60px 0 rgba(0,0,0,.1);position:absolute;top:20%;width:15%}#divi-ui-collage img:nth-of-type(3){box-shadow:0 -10px 60px 0 rgba(0,0,0,.1);position:absolute;right:0;top:10%;width:18%}#templates-grid{flex-direction:column;gap:20px;margin-bottom:5vw}#templates-grid .templates-grid-row{display:flex;flex-wrap:nowrap;gap:20px;justify-content:center;position:relative;transform:translateX(0);transition:transform .2s ease}#templates-grid .templates-grid-row img{border-radius:.3vw;width:20%}#templates-grid .templates-grid-row img.lazy{height:0}#templates-grid:after{background:radial-gradient(75% 100% at 50% 0,transparent 0,#000 100%);content:"";height:101%;left:50%;position:absolute;transform:translateX(-50%);width:105vw}.fade-in-element{opacity:0;scale:.96;transition:all .3s ease-in-out}.fade-in-element.fade-in-element.visible{opacity:1;scale:1}
+</style>
+
+<link rel="stylesheet" href="./landing/css/pricing.css">
+
+
+			
+			<script src="./landing/onesignal/web"></script>
+			<script src="./landing/onesignal/OneSignalPageSDKES6.js" async="true"></script>
+			<script async="" type="text/javascript" src="./landing/clickease/stat.js">
+		
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdKJYoqAAAAAERkPFmQmNY1zn7fra3ZLP8Vs8nk"></script>
+			</script><script src="./landing/onesignal/OneSignalSDK.js" async=""></script>
+			<link rel="shortcut icon" href="img/sr_favicon.webp" type="image/x-icon" />
+		</head>
+<body class="divi js-ready with_promo_slide_in mouse-ready">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	<!-- hide backend code -->
+
+    <script>
+      document.addEventListener("contextmenu", event => event.preventDefault());
+    
+      document.addEventListener("keydown", event => {
+        if (event.ctrlKey && (event.key === "u" || event.key === "i" || event.key === "j" || event.key === "s")) {
+          event.preventDefault();
+        }
+        if (event.key === "F12") {
+          event.preventDefault();
+        }
+      });
+    </script>
+
+<div id="main-nav" class="transparent-header solid-header">
+	<div class="menu-bg-wrapper">
+		<div class="menu-bg"></div>
+		<div class="menu-arrow"></div>
+	</div>
+	<script>
+        window.addEventListener("scroll", function() {
+            let header = document.getElementById("header");
+            let logo = document.getElementById("logo");
+            let logoLink = document.querySelector(".logo-link");
+            if (window.scrollY > 50) {
+                header.classList.add("scrolled");
+                logo.src = "./img/logo-main.webp"
+                logo.alt="SellerRocket"; // Change to new image
+            } else {
+                header.classList.remove("scrolled");
+                logo.src = "./img/logo-main-Photoroom.png";
+                logo.alt="SellerRocket"; // Revert to original image
+            }
+        });
+    </script>
+	<div class="row-container" id="header">
+			<a class="logo-link" style="border: none; width: 200px; margin-top: 10px; margin-left: 22%;" href="https://sellerrocket.in/"><img id="logo" src="./img/logo-main-Photoroom.png" alt="Seller rocket"></a>
+			<nav>
+				<ul class="menu">
+						<li class="menu-wrapper">
+						    <a class="menu-item accent-pink" href="https://www.sellerrocket.in">Home
+							
+						</a>
+						<div class="card card-medium sub-menu accent-blue">
+							
+						</div>
+						</li>
+					<li class="menu-wrapper">
+						<a class="menu-item accent-pink" href="#servicess">Services
+							
+						</a>
+						<div class="card card-medium sub-menu accent-blue">
+							
+						</div>
+					</li>
+					
+					<li class="menu-wrapper">
+						<a class="menu-item accent-pink" href="https://sellerrocket.in/contactus.html">Contact
+						
+						</a>
+						<div class="card card-medium sub-menu accent-blue">
+						
+						</div>
+					</li>
+				</ul>
+								<div class="pricing-button-wrapper">
+					<a id="accounts-button" class="button primary-button accent-green scroll-to-element accent-pink" href="#leads"><span>Get consultation today</span></a>
+					<div class="menu-callout card callout-divi">
+								<h6>Growth your business now</h6>
+							</div>				</div>
+						</nav>
+			<span class="hamburgers" style="">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+	</div>
+</div>	
+			<section id="divi-hero">
+			<video autoplay="" loop="" muted="" playsinline="">
+				<source src="img/memory-of-a-woman.mp4" type="video/mp4">
+				<source src="img/memory-of-a-woman.webm" type="video/webm">
+			</video>
+			<div class="row-container">
+				<div class="row center-align-columns">
+					<div class="column-container column-8">
+						<div class="column accent-purple">
+							<h1 class="colored-header">Seller Rocket</h1>
+							<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0N438MPTM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0N438MPTM');
+</script>
+							<h2 class="headline-2">Expert Insights,<span style="-webkit-text-fill-color:pink">No Cost</span> Schedule Your  <span style="-webkit-text-fill-color:pink">Free! </span>E-Commerce Consultation Today!</h2>
+							<p class="lead"><span style="color: white;">SellerRocket</span> is your trusted partner in accelerating <span style="color: white; text-decoration: underline;">Amazon eCommerce growth</span> . From expert account management to <span style="color: white; text-decoration: underline;">high-ROI marketing</span> and <span style="color: white; text-decoration: underline;">custom solutions</span>, we provide everything you need to succeed in the competitive marketplace.</p>
+					
+							<div class="inline-elements">
+								<a class="button primary-button scroll-to-element" href="#leads">
+									Start Your journey
+								</a>
+								<a class="button primary-button play-button video-popup" href="">
+									<svg viewBox="0 0 28 28">
+										<title>Play Video</title>
+										<path d="M11,20l9-6L11,8Zm3,7A13,13,0,1,1,27,14,13,13,0,0,1,14,27Z"></path>
+									</svg>
+									Watch Video
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+	<section>
+		<div class="row-container">
+			<div class="row">
+				<div class="column-container">
+					<div class="column centered">
+						<h2 class="headline-3">Supercharge Your E-commerce Business with SellerRocket – <span style="color: #0088cc;">Your Ultimate Growth Partner!</span></h2>
+						
+						<div id="divi-ui-collage" class="fade-in-element visible">
+							<img class="rellax" width="1024" height="698" data-rellax-speed="1" src="Hero/Hero.webp" data-src="Hero/Hero.webp" data-srcset="
+                  Hero/Hero small(2).webp 400w,
+									Hero/Hero medium.webp 768w,
+									Hero/Hero.webp 1024w,
+									Hero/Hero large.webp 2048w" sizes="(max-width: 1024px) 72vw, 
+									   1024px" alt="Seller rocket" style="" srcset="
+                     Hero/Hero small(2).webp 400w,
+                     Hero/Hero medium.webp 768w,
+                     Hero/Hero.webp 1024w,
+                     Hero/Hero large.webp 2048w">
+							<img class="rellax" width="192" height="424" data-rellax-speed="2" src="Hero/hero left.webp" data-src="Hero/hero left.webp" data-srcset="
+                  Hero/hero left.webp 192w,
+									Hero/hero left large.webp 384w" sizes="(max-width: 1024px) 13.5vw,
+									   (min-width: 1280px) 192px" alt="Seller rocket" style="" srcset="
+                     Hero/hero left.webp 192w,
+                     Hero/hero left large.webp 384w">
+							<img class="rellax" width="230" height="523" data-rellax-speed="3" src="Hero/hero right.webp" data-src="Hero/hero right.webp" data-srcset="
+              Hero/hero right.webp 192w,
+              Hero/hero left right.webp 384w"" sizes="(max-width: 1024px) 16.2vw,
+									   (min-width: 1280px) 230px" alt="Seller rocket" style="" srcset="
+                     Hero/hero left.webp 192w,
+                     Hero/hero left large.webp 384w">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row-container" id="servicess">
+			<div class="row">
+				<div class="column-container">
+					<div class="column">
+						<h3>Amazon Listing Audit: Optimize, Rank, and Sell More!</h3>
+						<ul>
+							<li><strong>✅ Title, Bullet Points & Description Optimization</strong> 
+							</li>
+							<li><strong>✅ Keyword Analysis & Ranking</strong> 
+							</li>
+							<li><strong>✅ Image & A+ Content Review </strong>
+							</li>
+							<li><strong>✅ Pricing & Buy Box Strategy</strong> 
+							</li>
+							<li><strong>✅ Customer Reviews & Ratings Analysis</strong>  
+
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-container">
+					<div class="column">
+						<h3>Campaign Services: Boost Sales with Expert Campaign Management </h3>
+						<ul>
+							<li><strong>✅ Amazon PPC Campaigns</strong> </li>
+							<li><strong>✅ Google Ads & Social Media Ads</strong></li>
+							<li><strong>✅ Product Launch Campaigns</strong> </li>
+							<li><strong>✅ Custom Ad Strategies</strong> </li>
+							<li><strong>✅ Retargeting & Remarketing</strong> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-container">
+					<div class="column">
+						<h3>Promotion Audit: Maximize Your Marketing ROI </h3>
+						<ul>
+							<li><strong>✅ Discount & Deal Optimization</strong> 
+							</li>
+							<li><strong>✅ Coupon & Lightning Deals Audit</strong> 
+							</li>
+							<li><strong>✅ Advertising & Campaign Review</strong> 
+							</li>
+							<li><strong>✅ Competitor Benchmarking</strong> 
+							</li>
+							<li><strong>✅ Performance Insights & Action Plan</strong> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-container">
+					<div class="column">
+						<h3>Sales Audit: Optimize & Scale Your Revenue 🚀</h3>
+						<ul>
+							<li><strong>✅ Revenue & Profitability Breakdown</strong> 
+							</li>
+							<li><strong>✅ Product Performance Analysis</strong>  
+
+							</li>
+							<li><strong>✅ Pricing & Discount Strategy Review</strong> 
+
+							</li>
+							<li><strong>✅ Customer Behavior & Buying Trends</strong> 
+
+							</li>
+							<li><strong>✅ Competitor & Market Benchmarking</strong> 
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="support" class="light-background">
+		<div class="row-container">
+			<div class="row center-align-columns">
+				<div class="column-container">
+					<div class="column centered">
+						<h4 class="subhead">Client reviews</h4>
+						<div class="column centered accent-pink">
+							<h2 class="headline-3 accent-pink">Support, Experience, and Reliability You Can Depend On</h2>
+							<h2>25k+ Five-Star Reviews From Over 1,000,000 Customers</h2>
+							<a class="button accent-pink" href="#leads">Learn About Seller rocket</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					const slides = document.querySelector(".slides");
+					const slideWidth = document.querySelector(".testimonial-card").offsetWidth;
+					const totalSlides = document.querySelectorAll(".testimonial-card").length;
+					let currentIndex = 0;
+					let autoSlide;
+				
+					function nextSlide() {
+						currentIndex++;
+						if (currentIndex >= totalSlides) {
+							currentIndex = 0; // Reset to first slide
+						}
+						updateSlidePosition();
+					}
+				
+					function prevSlide() {
+						currentIndex--;
+						if (currentIndex < 0) {
+							currentIndex = totalSlides - 1; // Move to last slide
+						}
+						updateSlidePosition();
+					}
+				
+					function updateSlidePosition() {
+						slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+					}
+				
+					function startAutoSlide() {
+						autoSlide = setInterval(nextSlide, 3000); // Auto-slide every 3 seconds
+					}
+				
+					function stopAutoSlide() {
+						clearInterval(autoSlide);
+					}
+				
+					// Start auto-slide
+					startAutoSlide();
+				
+					// Pause on hover
+					slides.addEventListener("mouseenter", stopAutoSlide);
+					slides.addEventListener("mouseleave", startAutoSlide);
+				
+					// Add manual controls
+					document.querySelector(".prev").addEventListener("click", prevSlide);
+					document.querySelector(".next").addEventListener("click", nextSlide);
+				});
+				</script>
+				
+			<div class="slider">
+			    <div class="slides" style="transform: translateX(0px);">
+			        <div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+							<img src="./landing/reviews/review1.jpg" alt="">
+			        	</div>
+			        </div>
+			        <div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+							<img src="./landing/reviews/review2.jpg" alt="">
+			        	</div>
+			        </div>
+			        <div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+				            <img src="./landing/reviews/review3.jpg" alt="">
+			        	</div>
+			        </div>
+			        <div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+							<img src="./landing/reviews/review4.jpg" alt="">
+			        	</div>
+			        </div>
+			        <div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+							<img src="./landing/reviews/review5.jpg" alt="">
+			        	</div>
+			        </div>
+					<div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+							<img src="./landing/reviews/review6.jpg" alt="">
+			        	</div>
+			        </div>
+					<div class="testimonial-card">
+			        	<div class="testimonial-card-content">
+				            <img src="./landing/reviews/review7.jpg" alt="">
+			        	</div>
+			        </div>
+				
+			    </div>
+			    <div class="controls">
+			        <button class="prev" disabled="">❮</button>
+			        <button class="next">❯</button>
+			    </div>
+			    <div class="pagination"><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+			</div>
+		</div>
+	</section>
+	<section id="Advanced Tools">
+		<div class="row-container">
+			<div class="row">
+				<div class="column-container">		
+					<div class="column centered">
+						<div class="sparkle-container">
+							<img class="" width="60" height="60" src="./landing/img/amazon-4k-logo-qhd.jpg" data-src="./landing/img/amazon-4k-logo-qhd.jpg" alt="amazon logo">
+							<div class="sparkles">
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+								<span class="sparkle"></span>
+							</div>
+						</div>
+						<h4 class="subhead">For The Sellers</h4>
+						<h2 class="headline-3">Advanced Audits For Sellers</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row equal-column-heights">
+				<div class="column-container">
+					<div id="advanced-tools-dynamic-content" class="column rounded-corners feature-card-dark">
+						<div>
+							<h4>Product Audit</h4>
+							<p>A product audit is a systematic examination of a product’s quality, performance, compliance, and market relevance. It helps businesses ensure their products meet industry standards, customer expectations, and business objectives.</p>
+						</div>
+						<div id="dynamic-content-gallery">
+							<img class="" width="548" height="350" src="./landing/audits/audit6.jpg" data-src="./landing/audits/audit6.jpg" data-srcset="
+							./landing/audits/audit6.jpg 400w,
+							./landing/audits/audit6.jpg 548w,
+							./landing/audits/audit6.jpg 1096w" sizes="(max-width: 670px) 80vw,
+									   (max-width: 1422px) 39vw,
+									   548px" alt="Dinamic Content" srcset="
+									   ./landing/audits/audit6.jpg 400w,
+									   ./landing/audits/audit6.jpg 548w,
+									   ./landing/audits/audit6.jpg 1096w" style="opacity: 1;">
+							<img class="" width="548" height="350" src="./landing/audits/audit7.jpg" data-src="./landing/audits/audit7.jpg" data-srcset="
+							./landing/audits/audit7.jpg 400w,
+							./landing/audits/audit7.jpg 548w,
+							./landing/audits/audit7.jpg 1096w" sizes="(max-width: 670px) 80vw,
+									   (max-width: 1422px) 39vw,
+									   548px" alt="Dinamic Content" srcset="
+									   ./landing/audits/audit7.jpg 400w,
+									   ./landing/audits/audit7.jpg 548w,
+									   ./landing/audits/audit7.jpg 1096w" style="opacity: 1;">
+							<img class="" width="548" height="350" src="./landing/audits/audit8.jpg" data-src="./landing/audits/audit8.jpg" data-srcset="
+							./landing/audits/audit8.jpg 400w,
+							./landing/audits/audit8.jpg 548w,
+							./landing/audits/audit8.jpg 1096w" sizes="(max-width: 670px) 80vw,
+									   (max-width: 1422px) 39vw,
+									   548px" alt="Dinamic Content" srcset="
+									   ./landing/audits/audit8.jpg 400w,
+									   ./landing/audits/audit8.jpg 548w,
+									   ./landing/audits/audit8.jpg 1096w" style="opacity: 1;">
+							<img class="" width="548" height="350" src="./landing/audits/audit6.jpg" data-src="./landing/audits/audit6.jpg" data-srcset="
+							./landing/audits/audit6.jpg 400w,
+							./landing/audits/audit6.jpg 548w,
+							./landing/audits/audit6.jpg 1096w" sizes="(max-width: 670px) 80vw,
+									   (max-width: 1422px) 39vw,
+									   548px" alt="Dinamic Content" srcset="
+									   ./landing/audits/audit6.jpg 400w,
+									   ./landing/audits/audit6.jpg 548w,
+									   ./landing/audits/audit6.jpg 1096w" style="opacity: 1;">
+			
+						</div>
+						
+					</div>
+				</div>
+				<div class="column-container">
+					<div id="advanced-tools-conditional-display" class="column rounded-corners feature-card-dark">
+						<div>
+							<h4>Coupon Code Audit: Ensuring Efficiency & Preventing Misuse</h4>
+							<p>A coupon code audit is the process of reviewing and analyzing promotional codes to optimize their performance, prevent fraud, and ensure they align with marketing goals. <br> Customer Segmentation & Targeting – Evaluate if coupon campaigns are reaching the right audience segments for maximum impact.</p>
+						</div>
+						<div id="conditional-display-collage">
+							<img class="" width="295" height="274" src="./landing/audits/coupon1.avif" data-src="./landing/audits/coupon1.avif" data-srcset="
+							./landing/audits/coupon1.avif 295w,
+							./landing/audits/coupon1.avif 590w" sizes="(max-width: 670px) 44vw,
+									   (max-width: 1422px) 21vw,
+									   295px" alt="Conditional Display Option" srcset="
+									   ./landing/audits/coupon1.avif 295w,
+									   ./landing/audits/coupon1.avif 590w">
+							
+							<img class="" width="219" height="66" src="" data-src="" data-srcset="
+									 219w,
+									 438w" sizes="(max-width: 670px) 31vw,
+									   (max-width: 1422px) 15vw,
+									   219px" alt="Conditional Display Option" srcset="
+									 219w,
+									 438w" style="filter: blur(1.45757px); opacity: 0.02829; transform: scale(0.805658);">
+									<img class="" width="274" height="84" src="./landing/audits/coupon2.jpg" data-src="./landing/audits/coupon2.jpg" data-srcset="
+							./landing/audits/coupon2.jpg 274w,
+							./landing/audits/coupon2.jpg 549w" sizes="(max-width: 670px) 40vw,
+									   (max-width: 1422px) 19vw,
+									   274px" alt="Conditional Display Option" srcset="
+									   ./landing/audits/coupon2.jpg 274w,
+									   ./landing/audits/coupon2.jpg 549w" style="transform: translate3d(0.0139417px, 0px, 0px);">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row equal-column-heights">
+				<div class="column-container">
+					<div id="advanced-tools-custom-code" class="column rounded-corners feature-card-dark">
+						<div>
+							<h4>Business Reports</h4>
+							<p>We conduct daily business audits to ensure operations run smoothly, efficiently, and securely. By inspecting key processes, finances, compliance, and performance metrics, we help identify opportunities for growth, eliminate inefficiencies, and safeguard against risks. Our proactive approach keeps your business optimized, competitive, and ready for success—because excellence isn’t a one-time effort, it’s a daily commitment.</p>
+						</div>
+						<div id="custom-code-collage" >
+							<img class="" width="548" height="400" src="./landing/Graphs/graph2.jpg" data-src="./landing/Graphs/graph2.jpg" data-srcset="
+							./landing/Graphs/graph2.jpg 400w,
+							./landing/Graphs/graph2.jpg 548w,
+							./landing/Graphs/graph2.jpg 1096w" sizes="(max-width: 670px) 81vw,
+									   (max-width: 1422px) 39vw,
+									   548px" alt="Custom Code" style="transform: translate3d(-0.849429px, 0px, 0px);" srcset="
+									   ./landing/Graphs/graph2.jpg 400w,
+									   ./landing/Graphs/graph2.jpg 548w,
+									   ./landing/Graphs/graph2.jpg 1096w">
+					
+						</div>
+					</div>
+				</div>
+				<div class="column-container">
+					<div id="advanced-tools-animations" class="column rounded-corners feature-card-dark">
+						<div>
+							<h4>Sale Report</h4>
+							<p>A sales audit is a comprehensive review of your sales processes, performance, and strategies to identify strengths, weaknesses, and growth opportunities. It helps businesses improve efficiency, maximize revenue, and ensure alignment with market demands.</p>
+						</div>
+						<div id="scroll-effects-collage">
+							<div id="scroll-effects-ui" style="width: 250px;">
+								<img src="./landing/Graphs/graph1.jpg" style="height: 100px; width:100% !important;" alt="">
+								<div id="scrollingElement" style="position: absolute; left: 32.9px;">
+										<img src="" alt="">
+							    </div>
+							</div>
+							<img class="" width="55" height="59" src="https://www.elegantthemes.com/images/divi/scroll-effects-1.png" data-src="https://www.elegantthemes.com/images/divi/scroll-effects-1.png" alt="Floating Object" style="transform: translate3d(0px, -1.0072px, 0px) rotate(-2.51801deg);">
+							<img class="" width="44" height="44" src="https://www.elegantthemes.com/images/divi/scroll-effects-2.png" data-src="https://www.elegantthemes.com/images/divi/scroll-effects-2.png" alt="Floating Object" style="filter: blur(2.10369px); opacity: 0.789631; transform: translate3d(-4.20738px, -10.5184px, 0px) scale(0.989482);">
+							<img class="" width="132" height="134" src="https://www.elegantthemes.com/images/divi/scroll-effects-3.png" data-src="https://www.elegantthemes.com/images/divi/scroll-effects-3.png" alt="Floating Object" style="transform: translate3d(0.306841px, -0.613683px, 0px) rotate(0.460262deg);">
+							<img class="" width="143" height="130" src="https://www.elegantthemes.com/images/divi/scroll-effects-4.png" data-src="https://www.elegantthemes.com/images/divi/scroll-effects-4.png" alt="Floating Object" style="transform: translate3d(-1.63954px, 0.819769px, 0px) rotate(0.819769deg) scale(1.0041);">
+							<img class="" width="132" height="170" src="https://www.elegantthemes.com/images/divi/scroll-effects-5.png" data-src="https://www.elegantthemes.com/images/divi/scroll-effects-5.png" alt="Floating Object" style="transform: translate3d(0.848262px, 1.69652px, 0px) rotate(1.69652deg) scale(0.995759);">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.getElementsByTagName("a");
+            for (let i = 0; i < links.length; i++) {
+                let href = links[i].getAttribute("href");
+
+                if (window.innerWidth > 680) { // Desktop resolution
+                    if (href.includes("#leads")) {
+                        links[i].href = href.replace("#leads", "#leadss");
+                    }
+                }
+            }
+        });
+    </script>
+ <section  class="section" id="leads">
+	<div class="outer" style="height: 75%; width: 80%; margin: auto; display: flex;  ">
+	
+		<div class="inner2" style="height: 100%; width: 100%; background-color: white; border-radius: 20px; display: flex; flex-direction: column; padding: 30px;">
+			<div class="box" style="" >
+				<h2 style="color: #0088cc;">GET IN TOUCH</h2><p style="color:black">Fill This form, Our Expertise will reach you soon!</p></div>
+			<div class="form" >
+				<form action="landingpage.php" method="POST">
+					<div class="col1">
+						<input id="input" name="name" type="text" required>
+						<label id="label" for="name">Full name</label>
+					</div>
+					<div class="col1">
+						<input id="input" name="email" type="text" required>
+						<label id="label" for="email">Mail</label>
+					</div>
+					<div class="col1">
+						<input id="input" name="phone" type="text" required>
+						<label id="label" for="phone">phone</label>
+					</div>
+					<div class="col1">
+						<input id="input" type="text" name="message" required>
+						<label id="label" for="message">Message</label>
+					</div>
+
+					<div class="g-recaptcha" data-sitekey="6LeZlM8qAAAAAGJRbq2fsoXg7LFN1JAAGVkHl89L"></div>
+					<div>
+						<input type="submit" name="" id="button">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> 
+ </section>
+	<!-- No Code Editing -->
+
+	<!-- Quick Sites -->
+	<section id="quick-sites" class="sticky-features">
+		<div class="row-container quick-sites-slider">
+			<div class="row">
+				<div class="column-container">
+					<div class="column centered">
+						<h4 class="subhead">Seller rocket sites</h4>
+						<div class="accent-red">
+							<h2 class="headline-3">Our projects</h2>	
+							<p class="lead">Stunning and optimized well structured websites</p>
+							<div class="inline-elements centered">
+								<a class="button" href="#leads">Learn More</a>
+								<a class="button play-button video-popup" href="">
+									<svg viewBox="0 0 28 28">
+										<title>Play Video</title>
+										<path d="M11,20l9-6L11,8Zm3,7A13,13,0,1,1,27,14,13,13,0,0,1,14,27Z"></path>
+									</svg>
+									Watch Video
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="templates-grid" class="row">
+				<div class="templates-grid-row slide-left" style="transform: translate3d(-0.238439%, 0px, 0px);">
+					<img class="" width="269" height="182" src="./img/projects/tcl.webp" data-src="./img/projects/tcl.webp" data-srcset="
+					./img/projects/tcl.webp 269w,
+					./img/projects/tcl.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							   ./img/projects/tcl.webp 269w,
+							   ./img/projects/tcl.webp 538w">
+
+					<img class="" width="269" height="182" src="img/projects/6.webp" data-src="img/projects/6.webp" data-srcset="
+					img/projects/6.webp 269w,
+					img/projects/6.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							   img/projects/6.webp 269w,
+							   img/projects/6.webp 538w">
+
+					<img class="" width="269" height="182" src="./img/projects/neilengg.webp" data-src="./img/projects/neilengg.webp" data-srcset="
+					./img/projects/neilengg.webp 269w,
+					./img/projects/neilengg.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							   ./img/projects/neilengg.webp 269w,
+							   ./img/projects/neilengg.webp 538w">
+
+					<img class="" width="269" height="182" src="./img/projects/4.webp" data-src="./img/projects/4.webp" data-srcset="
+					./img/projects/4.webp 269w,
+					./img/projects/4.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							./img/projects/4.webp 269w,
+							./img/projects/4.webp 538w">
+
+					<img class="" width="269" height="182" src="./img/projects/1.webp" data-src="./img/projects/1.webp" data-srcset="
+					./img/projects/1.webp 269w,
+					./img/projects/1.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							   ./img/projects/1.webp 269w,
+							   ./img/projects/1.webp 538w">
+
+					<img class="" width="269" height="182" src="./img/projects/2.webp" data-src="./img/projects/2.webp" data-srcset="
+					./img/projects/2.webp 269w,
+					./img/projects/2.webp 538w" sizes="(max-width: 1420px) 20vw,
+							   269px" alt="Premade Layout Template" srcset="
+							   ./img/projects/2.webp 269w,
+							   ./img/projects/2.webp 538w">
+
+					<img class="" width="269" height="182" src="./img/projects/tcl.webp" data-src="./img/projects/tcl.webp" data-srcset="
+					./img/projects/tcl.webp 269w,
+					./img/projects/tcl.webp 538w" sizes="(max-width: 1420px) 20vw,
+										  269px" alt="Premade Layout Template" srcset="
+										  ./img/projects/tcl.webp 269w,
+										  ./img/projects/tcl.webp 538w">
+				</div>
+				<div class="templates-grid-row slide-right" style="transform: translate3d(0.421246%, 0px, 0px);">
+
+				</div>
+			</div>
+		</div>
+		<div class="row-container">
+			<div class="row">
+				<div class="column-container column-5">
+					<div class="column">
+						<div class="sticky-feature-content accent-green current">
+							<img width="588" height="331" src="./landing/audits/audit1.png" style="display: block;" data-src="./landing/audits/audit1.png" alt="Starter Sites" class="lazy show-on-mobile">
+							<h4 class="subhead">Brand Analytics</h4>
+							<h2>Brand Analytics: Measuring & Optimizing Your Brand’s Performance</h2>
+							<p class="lead">Helps improve brand positioning & messaging <br>
+								Identifies growth opportunities & market trends <br>
+								Enhances customer experience & engagement <br>
+								Optimizes marketing spend & campaign effectiveness</p>
+							<a class="button" href="https://sellerrocket.in/">Learn About Brand Analytics</a>
+						</div>
+						<div class="sticky-feature-content accent-purple">
+							<img width="588" style="display: block;" height="331" src="./landing/audits/audits4.jpg" data-src="./landing/audits/audits4.jpg" alt="PPC AUDIT SELLER ROCKET" class="lazy show-on-mobile">
+							<h4 class="subhead">PPC Audit</h4>
+							<h2>PPC Audit: Optimizing Ad Performance for Maximum ROI</h2>
+							<a href="#leads" class="divi-pro-badge">
+								<div class="badge icon-badge">
+								Be the best in your Market
+									<svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.04874 0.945682C7.22986 0.566121 7.77014 0.566123 7.95126 0.945683L9.54324 4.28195C9.61613 4.4347 9.76135 4.54021 9.92916 4.56233L13.5941 5.04543C14.011 5.1004 14.178 5.61423 13.873 5.90378L11.1919 8.44881C11.0692 8.56533 11.0137 8.73605 11.0445 8.90247L11.7176 12.5373C11.7942 12.9508 11.3571 13.2684 10.9875 13.0678L7.73851 11.3044C7.58975 11.2237 7.41025 11.2237 7.26149 11.3044L4.01254 13.0678C3.64292 13.2684 3.20582 12.9508 3.28239 12.5373L3.95546 8.90247C3.98627 8.73605 3.93081 8.56533 3.80805 8.4488L1.12703 5.90378C0.822011 5.61423 0.988968 5.1004 1.40592 5.04543L5.07085 4.56233C5.23865 4.54021 5.38387 4.4347 5.45676 4.28195L7.04874 0.945682Z"></path>
+									</svg>
+									
+								</div>
+							</a>
+							<p class="lead">A PPC audit (Pay-Per-Click audit) is a comprehensive analysis of a paid advertising campaign, typically run on platforms like Google Ads, Bing Ads, Facebook Ads, etc. The goal is to evaluate performance, identify inefficiencies, and optimize for better ROI (Return on Investment).</p>
+							<a class="button" href="https://sellerrocket.in/">Learn More About PPC Audit</a>
+						</div>
+						<div class="sticky-feature-content accent-blue">
+							<img width="588" height="331" style="display: block;" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" alt="Premade Layouts" class="lazy show-on-mobile">
+							<h4 class="subhead">Inventory Analysis</h4>
+							<h2>Inventory Analysis: Key Insights & Optimization Strategies</h2>
+							<p class="lead">Inventory analysis is the process of evaluating stock levels, demand patterns, and supply chain efficiency to optimize inventory management. It helps businesses minimize costs, prevent stockouts, and improve overall operations.</p>
+							<a class="button" href="https://sellerrocket.in/">Browse Inventory Analysis</a>
+						</div>
+					</div>
+				</div>
+
+
+        <!-- LEAD FORM -->
+				<div class="column-container sticky-features-images-wrapper-wrapper">
+					<div class="column sticky-features-images-wrapper rounded-corners" id="leadss">
+							<div class="outer" style="height: 100%; width: 80%; margin: auto; display: flex;  " >
+							
+								<div class="inner2"  style="height: 100%; width: 100%; background-color: white; border-radius: 20px; display: flex; flex-direction: column; padding: 30px; box-shadow: #0088cc 2px 2px 2px 2px;">
+									<h2 style="color: #0088cc;">GET IN TOUCH</h2><p style="color: #000;">Fill This form, Our Expertise will reach you soon!</p>
+									<div class="form" style="">
+										<form action="landingpage.php" method="POST" >
+											<div class="col1">
+												<input id="input" name="name" type="text" required>
+												<label id="label" for="name" >Full name</label>
+											</div>
+											<div class="col1">
+												<input id="input" name="email"  type="text" required>
+												<label id="label" for="email" >Mail</label>
+											</div>
+											<div class="col1">
+												<input id="input" name="phone"  type="text" required>
+												<label id="label" for="phone">phone</label>
+											</div>
+											<div class="col1">
+												<input id="input" name="message"  type="text" required>
+												<label id="label" for="message">Message</label>
+											</div>
+											<div class="g-recaptcha" data-sitekey="6LeZlM8qAAAAAGJRbq2fsoXg7LFN1JAAGVkHl89L"></div>
+											<div>
+												<input style="margin-bottom:0;" type="submit" name="" id="button">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div> 
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--Download Start-->
+  <script>
+        document.getElementById("l").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent actual form submission
+
+            setTimeout(function() {
+                // Create a hidden link element
+                let link = document.createElement("a");
+                link.href = "https://drive.usercontent.google.com/u/0/uc?id=1UXBgWQ-YhrBzO5cO7RXnrGqr-YJyklh1&export=download"; // Replace with your file URL
+                link.download = "download.pdf"; // File name when downloaded
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }, 3000); // 3 seconds delay
+        });
+    </script>
+    <script>
+        document.getElementById("").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent actual form submission
+
+            setTimeout(function() {
+                // Create a hidden link element
+                let link = document.createElement("a");
+                link.href = "https://drive.usercontent.google.com/u/0/uc?id=1UXBgWQ-YhrBzO5cO7RXnrGqr-YJyklh1&export=download"; // Replace with your file URL
+                link.download = "download.pdf"; // File name when downloaded
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }, 3000); // 3 seconds delay
+        });
+    </script>
+    <!--end-->
+    
+	
+	
+	
+	<!-- Global Control -->
+
+
+	<!-- ECOMMERCE -->
+	<section id="woocommerce">
+		<div class="row-container">
+			<div class="row center-align-columns">
+				<div class="column-container">
+					<div id="woocommerce-collage" class="flex">
+	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Marketplace -->
+	<section id="marketplace">
+		<div id="marketplace-overlay"></div>
+		<div class="row-container">
+			<div class="row center-align-columns">
+				<div class="column-container">
+					<div class="column centered">
+						<h4 class="subhead">Marketplace</h4>
+						<div class="accent-green column centered">
+							<h2 class="headline-3 colored-header">Maximize Profits & Performance with a Powerful Amazon E-Commerce Audit!</h2>
+							<a href="#leads" class="divi-pro-badge scroll-to-element">
+								<div class="badge icon-badge">
+								Get a Free consultation Today
+									<svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.04874 0.945682C7.22986 0.566121 7.77014 0.566123 7.95126 0.945683L9.54324 4.28195C9.61613 4.4347 9.76135 4.54021 9.92916 4.56233L13.5941 5.04543C14.011 5.1004 14.178 5.61423 13.873 5.90378L11.1919 8.44881C11.0692 8.56533 11.0137 8.73605 11.0445 8.90247L11.7176 12.5373C11.7942 12.9508 11.3571 13.2684 10.9875 13.0678L7.73851 11.3044C7.58975 11.2237 7.41025 11.2237 7.26149 11.3044L4.01254 13.0678C3.64292 13.2684 3.20582 12.9508 3.28239 12.5373L3.95546 8.90247C3.98627 8.73605 3.93081 8.56533 3.80805 8.4488L1.12703 5.90378C0.822011 5.61423 0.988968 5.1004 1.40592 5.04543L5.07085 4.56233C5.23865 4.54021 5.38387 4.4347 5.45676 4.28195L7.04874 0.945682Z"></path>
+									</svg>
+									<span class="tooltip_hover"></span>
+								</div>
+							</a>
+							<p class="lead">In the fast-paced world of Amazon e-commerce, every detail matters. A comprehensive Amazon audit helps uncover hidden opportunities, eliminate inefficiencies, and optimize your store for maximum profitability.</p>
+							<a class="button" href="#leads">Get consultation today</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="marketplace-collage" class="flex">
+			<div style="transform: translate3d(0px, 24.2789px, 0px);">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit8.jpg" data-src="./landing/audits/audit8.jpg" data-srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" data-srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audits4.jpg" data-src="./landing/audits/audits4.jpg" data-srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w">
+				
+			</div>
+			<div style="transform: translate3d(0px, -72.8367px, 0px);">
+				
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" data-srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit8.jpg" data-src="./landing/audits/audit8.jpg" data-srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit10.jpg" data-src="./landing/audits/audit10.jpg" data-srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audits4.jpg" data-src="./landing/audits/audits4.jpg" data-srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit11.jpg" data-src="./landing/audits/audit11.jpg" data-srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" data-srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w">
+			</div>
+			<div style="transform: translate3d(0px, 72.8367px, 0px);">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit10.jpg" data-src="./landing/audits/audit10.jpg" data-srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit11.jpg" data-src="./landing/audits/audit11.jpg" data-srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" data-srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audits4.jpg" data-src="./landing/audits/audits4.jpg" data-srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit8.jpg" data-src="./landing/audits/audit8.jpg" data-srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w">
+				
+			</div>
+			<div style="transform: translate3d(0px, -24.2789px, 0px);">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit5.webp" data-src="./landing/audits/audit5.webp" data-srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit5.webp 438w,
+				./landing/audits/audit5.webp 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit10.jpg" data-src="./landing/audits/audit10.jpg" data-srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit10.jpg 438w,
+				./landing/audits/audit10.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit11.jpg" data-src="./landing/audits/audit11.jpg" data-srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit11.jpg 438w,
+				./landing/audits/audit11.jpg 876w">
+				
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audits4.jpg" data-src="./landing/audits/audits4.jpg" data-srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audits4.jpg 438w,
+				./landing/audits/audits4.jpg 876w">
+				<img class="rounded-corners" width="438" height="244" src="./landing/audits/audit8.jpg" data-src="./landing/audits/audit8.jpg" data-srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w" sizes="25vw" alt="Seller Rocket" srcset="
+				./landing/audits/audit8.jpg 438w,
+				./landing/audits/audit8.jpg 876w">
+				
+			</div>
+		</div>
+	</section>
+
+
+	
+	
+	
+
+	<!-- Divi Dash -->
+	<section id="divi-dash">
+		<div class="row-container">
+			<div class="row center-align-columns">
+				<div class="column-container">
+					<div class="column centered">
+						<h4 class="subhead">Seller Rocket</h4>
+						<div class="accent-blue column centered">
+							<h2 class="headline-3 colored-header">Managing Your E-Commerce Websites Has Never Been So Easy</h2>
+							<p class="lead">Audit, Optimize, and Rise—Boost Your Amazon Sales to the Skies!</p>
+							<a class="button" href="#leads">Business Analytics</a>
+						</div>
+						<img class="" width="1280" height="510" src="./landing/Graphs/graph3.jpg" data-src="./landing/Graphs/graph3.jpg" data-srcset="
+						./landing/Graphs/graph3.jpg 400w,
+						./landing/Graphs/graph3.jpg 768w,
+						./landing/Graphs/graph3.jpg 1280w,
+						./landing/Graphs/graph3.jpg 1560w" sizes="(max-width: 1422px) 90vw,
+								   1280px" alt="Divi Dash" srcset="
+								   ./landing/Graphs/graph3.jpg 400w,
+								   ./landing/Graphs/graph3.jpg 768w,
+								   ./landing/Graphs/graph3.jpg 1280w,
+								   ./landing/Graphs/graph3.jpg 1560w">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="pricing">
+		<div class="row-container">
+			<div class="row">
+				<div class="column-container">
+					<div class="column centered">
+						<h2 class="headline-3">Power Your E-Commerce Growth with SEO-Optimized Websites – All in One Call!</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<section id="guarantee">
+		<div class="row-container narrow">
+			<div class="row small-gutters">
+				<div class="column-container">
+					<div class="column guarantee-card">
+						<div class="guarantee-container card accent-blue">
+						
+							<h2 style="color: #6ecfff;">Try Seller rocket - <em style="color: #ff9800;">FREE consultation</em></h2>
+							<p class="lead">Boost Your E-Commerce Success with Seller Rocket! Get SEO-Optimized Stores & Marketing Tools in One Subscription. Scale Effortlessly—Upgrade Anytime!</p>
+							<h4 style="color: #6ecfff;">Elevate,Personalize,Change,Solutions - All in One place</h4>
+							<p class="lead">Seller Rocket offers powerful e-commerce solutions with SEO-optimized stores, marketing tools, and flexible plans to help businesses grow effortlessly</p>
+						</div>
+						<span class="inline-elements">
+							<a class="button accent-purple scroll-to-element" href="#leads">Get consultation today</a>
+							<a class="button accent-gray launch_intercom" href="">Chat With Sales</a>
+							<a class="button tertiary-button accent-gray scroll-to-element" href="#faq">Frequently Asked Questions</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- faq -->
+	<section>
+		<div class="row-container narrow" id="faq">
+			<div class="row">
+				<div class="column-container">
+					<div class="column centered">
+						<h2>FAQ'S</h2>
+						<h2>Frequently Asked Questions</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row accent-blue">
+				<div class="column-container">
+					<div class="column ">
+						<ul class="accordion">
+							<li>
+								<a class="active"><h4>Why choose Seller Rocket?</h4></a>
+								<p style="">Choose Seller Rocket for expert-driven Amazon seller audits that identify growth opportunities and optimize your account for success. We offer tailored, actionable insights to improve listing visibility, sales, and account health. Our data-driven strategies ensure your business stays competitive and compliant with Amazon's policies. With end-to-end services and ongoing support, we’re your trusted partner in growing your Amazon business. Transparent pricing and proven results make Seller Rocket the go-to solution for long-term Amazon success.</p>
+								
+							</li>
+							<li>
+								<a class=""><h4>What is the Seller Rocket Amazon Seller Audit?</h4></a>
+								<p style="display: none;">Seller Rocket’s Amazon Seller Audit is a comprehensive review of your Amazon account, listings, performance metrics, and compliance status. We analyze every aspect of your Amazon store to uncover opportunities for optimization, address potential risks, and provide actionable insights to increase your sales and efficiency.
+								</p>
+								
+							</li>
+							<li>
+								<a><h4>Why should I choose Seller Rocket for my Amazon Seller Audit?</h4></a>
+								<p>Seller Rocket specializes in helping Amazon sellers thrive by providing in-depth audits. With our expertise and tailored approach, we ensure that you’re not just compliant with Amazon’s policies but also positioned for success. Our audits are data-driven and focused on improving your bottom line, ensuring your Amazon business operates smoothly and efficiently.
+								</p>
+								
+							</li>
+							<li>
+								<a><h4>How long does the Seller Rocket Amazon audit take?</h4></a>
+								<p>Typically, our audit process takes *7 to 14 business days* to complete, depending on the size and complexity of your account and product listings. Afterward, you’ll receive a detailed report with our findings and recommendations.
+								</p>
+								
+							</li>
+							<li>
+								<a><h4>Do I need to give Seller Rocket access to my Amazon Seller Central account for the audit?*
+								</h4></a>
+								<p>Yes, to conduct a thorough audit, we’ll need temporary access to your *Amazon Seller Central account*. This allows us to review your account health, listings, and sales data. All information is kept secure and confidential, and you can revoke access at any time once the audit is completed.
+								</p>
+								
+							</li>
+							<li>
+								<a><h4> Will the audit help prevent account suspension or policy violations?</h4></a>
+								<p>Yes, one of the key components of our audit is identifying potential risks related to account suspension, policy violations, or performance issues. We help you address these concerns proactively to avoid future disruptions and ensure your account remains in good standing with Amazon.
+								</p>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <section id="main-footer">
+		<div class="row-container">
+	
+			<div id="footer-menu" class="row three-column-tablet two-column-phone">
+				<div class="column-container">
+					<div class="column">
+						<a href="https://www.sellerrocket.in/"><h3>Seller Rocket</h3></a>
+						<ul class="link-list">
+
+							<li>
+								<a class="with-callout" href="">
+								Sales Audit
+								<span class="button-callout accent-teal elevation-1">Brand New!</span>
+							</a>
+							</li>
+							<li>
+								<a href="">Listing Audits</a>
+							</li>
+							<li>
+								<a href="">Promotion Audit</a>
+							</li>
+							<li>
+								<a href="">Campaign Audit</a>
+							</li>
+						
+						</ul>
+					</div>
+				</div>
+			
+				<div class="column-container">
+					<div class="column">
+						<a href=""><h3>Resources</h3></a>
+						<ul class="link-list">
+							<li>
+								<a href="">Documentation</a>
+							</li>
+							<li>
+								<a target="_blank" href="">Help Articles &amp; FAQ</a>
+							</li>
+							<li>
+								<a href="">24/7 Support</a>
+							</li>
+							<!-- <li>
+								<a href="">Developer Docs</a>
+							</li>
+							<li>
+								<a target="_blank" href="">System Status</a>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="column-container">
+					<div class="column">
+						<a href=""><h3>Blog</h3></a>
+						<ul class="link-list">
+							<li>
+								<a href="">Recent Posts</a>
+							</li>
+							<li>
+								<a href="">Product Updates</a>
+							</li>
+							<!-- <li>
+								<a href="">Resources</a>
+							</li>
+							<li>
+								<a href="">Business</a>
+							</li> -->
+							<!-- <li>
+								<a href="">WordPress</a>
+							</li> -->
+							<!-- <li>
+								<a href="">Best Plugins</a>
+							</li> -->
+							<!-- <li>
+								<a href="">Top Tools</a>
+							</li>
+							<li>
+								<a href="">Best Hosting</a>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+			
+				
+				<div class="column-container">
+					<div class="column">
+							<a href=""><h3>Company</h3></a>
+						<ul class="link-list">
+							<li>
+								<a href="">About Us</a>
+							</li>
+							<!-- <li>
+								<a href="">Careers</a>
+							</li> -->
+							<!-- <li>
+								<a href="">Contact Us</a>
+							</li> -->
+							<li>
+								<a href="">Terms of Service</a>
+							</li>
+							<li>
+								<a href="">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="column-container">
+					<div class="column centered">
+						<p>Copyright © 2025 Seller Rocket ®</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		
+	<!-- Button For Video Popup -->
+
+			
+	<!-- TrustBox script -->
+	<script async="" src="./landing/outbrain/obtp.js" type="text/javascript"></script><script async="" src="./landing/taboola/tfa.js" id="tb_tfa_script"></script><script async="" src="./landing/taboola/core.js"></script><script async="" src="./landing/taboola/qevents.js"></script><script type="text/javascript" async="" src="./landing/taboola/insight.min.js"></script><script src="https://www.redditstatic.com/ads/pixel.js" async=""></script><script src="./landing/taboola/bat.js" async=""></script><script async="" src="https://static.ads-twitter.com/uwt.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://widget.intercom.io/widget/hrpt54hy"></script><script type="text/javascript" src="./landing/taboola/tp.widget.bootstrap.js" async=""></script>
+	<!-- End TrustBox script -->
+
+	<script type="text/javascript" src="https://www.elegantthemes.com/js/jquery.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/cookie.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/cookie-consent.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/jquery.plugin.min.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/jquery.countdown.min.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/intersectional-observer.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/yall.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/relax.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/magnificpopup.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/allpages.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/bounce.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/divi.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/promo.js?ver=6.72"></script><script type="text/javascript" src="https://www.elegantthemes.com/js/promo-customers.js?ver=6.72"></script><script type="text/javascript" data-type="optional" data-src="https://www.elegantthemes.com/js/tracking.js?ver=6.72" src="https://www.elegantthemes.com/js/tracking.js?ver=6.72"></script><script type="text/javascript" data-type="lazy" data-src="https://www.elegantthemes.com/js/onesignal.js?ver=6.72" src="https://www.elegantthemes.com/js/onesignal.js?ver=6.72"></script><script type="text/javascript" data-type="lazy-optional" data-src="https://www.elegantthemes.com/js/tracking-delayed.js?ver=6.72" src="https://www.elegantthemes.com/js/tracking-delayed.js?ver=6.72"></script>					<script>
+						function et_onesignal_scripts() {
+							OneSignal.push(function() {
+								OneSignal.sendTags({
+								divi: 'yes'								});
+							});
+						}
+					</script>
+								<script>
+						window.intercomSettings = {
+							app_id: 'hrpt54hy',
+														custom_launcher_selector: '.launch_intercom',
+							widget: {
+								activator: '#IntercomDefaultWidget'
+							}
+						};
+						(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/hrpt54hy';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+					</script>
+						<!-- Enable gtag Consent Mode -->
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('consent', 'default', {
+					'ad_storage': 'denied',
+					'ad_user_data': 'denied',
+					'ad_personalization': 'denied',
+					'analytics_storage': 'denied',
+					'wait_for_update': 500
+				});
+			</script>
+			<!-- Google tag (gtag.js) -->
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-1006729916"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'AW-1006729916', {'anonymize_ip': true});
+				gtag('set', 'ads_data_redaction', true);
+			</script>
+		<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'90bf8f1b6c798032',t:'MTczODU1NTY5OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+		<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;90bf8f1b6c798032&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.1.0&quot;,&quot;token&quot;:&quot;a595f655f9be4d8cba21c8023304252d&quot;}" crossorigin="anonymous"></script>
+
+<div id="veepn-breach-alert"></div>
+<div id="veepn-guard-alert"></div>
+<style>font-weight:100 1000;font-display:swap}</style><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe>
+<div id="intercom-css-container"><style data-emotion="intercom-with-namespace-global" data-s=""></style><style data-emotion="intercom-with-namespace" data-s="">
+
+</style>
+</div>
+</body>
+</html>

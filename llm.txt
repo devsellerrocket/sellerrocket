@@ -1,0 +1,18 @@
+# This file provides instructions for AI language models.
+# For more information, see https://llm.txt.org/
+
+# Block Google's AI training bot
+User-agent: Google-Extended
+Disallow: /
+
+# Block OpenAI's training bot
+User-agent: ChatGPT-User
+Disallow: /
+
+# Block Perplexity's AI bot
+User-agent: PerplexityBot
+Disallow: /
+
+# A general rule to block all other AI bots that respect this standard
+User-agent: *
+Disallow: /
