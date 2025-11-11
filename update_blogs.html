@@ -1,0 +1,18 @@
+<form action="upload_blogs.php" method="post" enctype="multipart/form-data">
+    <label>Heading:</label><br>
+    <input type="text" name="heading" required><br><br>
+
+    <label>Description:</label><br>
+    <textarea name="description" required></textarea><br><br>
+
+    <label>Publish Date:</label><br>
+    <input type="date" name="publish_date" required><br><br>
+
+    <label>URL (e.g., zomato-layoffs.html):</label><br>
+    <input type="text" name="url" required><br><br>
+
+    <label>Upload Image:</label><br>
+    <input type="file" name="image" accept="image/*" required><br><br>
+
+    <input type="submit" value="Submit Article">
+</form>

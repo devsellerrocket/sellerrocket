@@ -1,0 +1,64 @@
+#logo{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#logof{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#sec1{
+    padding: 4% 6%;
+    border-radius: 20px;
+    background-image: linear-gradient(#abdef8, white 80% );
+    margin-top: 1%;
+    
+}
+#sec12{
+    border: 1px solid rgb(204, 204, 204);
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    color: grey;
+
+}
+
+#sec13{
+    border: 1px solid rgb(219, 219, 219);
+    margin: 2%;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: grey;
+}
+ 
+#con1
+{
+    border-radius: 20px;
+    width: 60%;
+}
+#btn1{
+    border: 1px solid rgb(219, 219, 219); padding: 4% 6%; border-radius: 40px; text-decoration: none;  margin-right: -20%;background-color: #0088cc;
+    color:white; 
+
+}
+#btn1:hover{
+    color: rgb(70, 70, 70); background-color: white;
+    
+
+}
+#btn2{
+    border: 1px solid rgb(219, 219, 219); padding: 4% 6%; border-radius: 40px; text-decoration: none;  margin-left: -20%;background-color: #0088cc;
+    color:white;
+
+}
+#btn2:hover{
+    color: rgb(70, 70, 70); background-color: white;
+    
+}
