@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send Email</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    .g-recaptcha {
+      margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="send.php" method="POST">
+  <label>Recipient Emails (comma-separated):</label><br>
+  <input type="text" name="to_emails" placeholder="email1@example.com, email2@example.com" required><br><br>
+
+  <label>Recipient Names (comma-separated):</label><br>
+  <input type="text" name="to_names" placeholder="Name One, Name Two" required><br><br>
+
+  <!-- Google reCAPTCHA v2 -->
+  <div class="g-recaptcha" data-sitekey="6LeZlM8qAAAAAGJRbq2fsoXg7LFN1JAAGVkHl89L"></div><br>
+
+  <input type="submit" value="Send Email">
+</form>
+    </div>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>
+

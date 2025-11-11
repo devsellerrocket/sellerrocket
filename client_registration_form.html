@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+	<!-- hide backend code -->
+
+    <script>
+      document.addEventListener("contextmenu", event => event.preventDefault());
+    
+      document.addEventListener("keydown", event => {
+        if (event.ctrlKey && (event.key === "u" || event.key === "i" || event.key === "j" || event.key === "s")) {
+          event.preventDefault();
+        }
+        if (event.key === "F12") {
+          event.preventDefault();
+        }
+      });
+    </script>
+
+   <!-- promo popup -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		// 		$(document).ready(function () {
+		// 			$("#myModal").modal('show');
+		// 		});
+		setTimeout(function () {
+			$('#myModal').modal('show');
+		}, 5000);
+	</script>
+<body>
+  <div class="container">
+    <center><img src="logo.webp" width="250"></center>
+   
+    <div class="title">Client Registration Form</div>
+    <div class="content">
+      
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Company Name</span>
+            <input type="text" placeholder="your Company name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contact Person Name</span>
+            <input type="text" placeholder="Name of the Contact Person" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter Company Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email </span>
+            <input type="text" placeholder="Enter your Mail" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone</span>
+            <input type="text" placeholder="Enter your Phone Number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">GST No:</span>
+            <input type="text" placeholder="Enter Your GST Number" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+     
+    </div>
+  </div>
+
+</body>
+</html>
