@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin: 0; 
+    font-family: monospace;
+}
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #fff4;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+header li{
+    padding: 30px 40px;
+    color: #fff;
+}
+header li.active, header li:hover{
+    border-bottom: 2px solid #fff;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #2B2F3A, #0D0E12);
+    overflow: hidden;
+}
+.slider::before{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #E88735;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    right: 60%;
+    text-align: right;
+    color: #fff;
+    font-size: 150px;
+    width: 40%;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 5px 0px #478860;
+    line-height: .9em;
+    transform: rotate(-5deg);
+}
+.images{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    --rotate: 0deg;
+    transform: translate(-50%, 50%) rotate(var(--rotate));
+    width: 1300px;
+    height: 1300px;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+    outline: 1px dashed #fff5;
+    outline-offset: -100px;
+}
+.images .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    rotate: calc(60deg * var(--i));
+}
+.images .item img{
+    height: 420px;
+}
+
+.content{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    text-align: justify;
+    width: 350px;
+}
+.content h1{
+    color: #E88735;
+    font-size: xxx-large;
+}
+.content button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #E88735;
+    color: #fff;
+    border: none;
+    float: right;
+}
+.content .item{
+    display: none;
+}
+.content .item.active{
+    display: block;
+}
+@keyframes showContent{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }to{
+        opacity: 1;
+    }
+}
+.content .item.active h1{
+    opacity: 0;
+    animation: showContent 0.5s ease-in-out 1 forwards;
+}
+.content .item.active .des{
+    opacity: 0;
+    animation: showContent 0.5s 0.3s ease-in-out 1 forwards;
+}
+.content .item.active button{
+    opacity: 0;
+    animation: showContent 0.5s 0.6s ease-in-out 1 forwards;
+}
+
+
+#prev,
+#next{
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 250px;
+    font-size: 100px;
+    font-family: cursive;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.3
+}
+#next{
+    left: unset;
+    right: 250px;
+}
+#next:hover,
+#prev:hover{
+    opacity: 1
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <ul>
+            <li class="active">Home</li>
+            <li>Contact</li>
+            <li>Info</li>
+            <li>Category</li>
+        </ul>
+    </header>
+    <div class="slider">
+        <div class="title">
+            Slider Pizza!
+        </div>
+        <div class="images">
+            <div class="item" style="--i: 1">
+                <img src="1.PNG">
+            </div>
+            <div class="item" style="--i: 2">
+                <img src="2.PNG">
+            </div>
+            <div class="item" style="--i: 3">
+                <img src="3.PNG">
+            </div>
+            <div class="item" style="--i: 4">
+                <img src="4.PNG">
+            </div>
+            <div class="item" style="--i: 5">
+                <img src="5.PNG">
+            </div>
+            <div class="item" style="--i: 6">
+                <img src="6.PNG">
+            </div>
+        </div>
+        <div class="content">
+            <div class="item active">
+                <h1>PRODUCT NAME 1</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>PRODUCT NAME 2</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>PRODUCT NAME 3</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>PRODUCT NAME 4</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>PRODUCT NAME 5</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+            <div class="item">
+                <h1>PRODUCT NAME 6</h1>
+                <div class="des">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur. Ipsum, quibusdam recusandae impedit molestiae libero nobis nemo possimus perspiciatis. Debitis aliquam cum nemo aspernatur expedita ea? Et officia asperiores est aliquam? Doloribus, tenetur non? Minima vero aperiam corporis magni. Officiis, blanditiis. Iusto sint distinctio eaque non culpa.
+                </div>
+                <button>See more</button>
+            </div>
+        </div>
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+<script>
+    let prev = document.getElementById('prev');
+let next = document.getElementById('next');
+let image = document.querySelector('.images');
+let items = document.querySelectorAll('.images .item');
+let contents = document.querySelectorAll('.content .item');
+
+let rotate = 0;
+let active = 0;
+let countItem = items.length;
+let rotateAdd = 360 / countItem;
+
+function nextSlider(){
+    active = active + 1 > countItem - 1 ? 0 : active + 1;
+    rotate = rotate + rotateAdd; 
+    show();
+}
+function prevSlider(){
+    active = active - 1 < 0 ? countItem - 1 : active - 1;
+    rotate = rotate - rotateAdd; 
+    show();     
+     
+}
+function show(){
+    image.style.setProperty("--rotate", rotate + 'deg');
+    image.style.setProperty("--rotate", rotate + 'deg');
+    contents.forEach((content, key) => {
+        if(key == active){
+            content.classList.add('active');
+        }else{
+            content.classList.remove('active');
+        }
+    })
+}
+next.onclick = nextSlider;
+prev.onclick = prevSlider;
+// const autoNext = setInterval(nextSlider, 3000);
+</script>
+    <script src="app.js"></script>
+</body>
+</html>

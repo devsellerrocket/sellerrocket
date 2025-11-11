@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://sellerrocket.in/sitemap.xml
